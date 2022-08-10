@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #522888;
+  --primary-color: #ff00dd;
   --secondary-color: #cdc7d9;
-  --background-color: #f6eedf;
+  --background-color: #d2d605d0;
   --box-shadow: 0 5px 10px #bf9553;
 }
 
@@ -65,55 +65,61 @@ html {
   max-width: 85px;
 }
 
-.navbar {
-  margin: 0 !important;
-  width: 100%;
+/* Navbar CSS */
+a,
+a:hover {
+  text-decoration: none;
+  color: #d2d605d0;
+}
+
+nav {
+  position: fixed;
+  display: block;
+  width: 60px;
+  height: 100vh;
+  background-color: #333;
+  text-align: center;
+}
+
+nav .brand {
+  font-size: 3rem;
+  font-weight: 600;
+  display: block;
+  background-color: #171717;
+}
+
+nav .menu {
+  display: block;
+  margin-top: 5rem;
+}
+
+nav .menu a {
+  display: block;
+}
+
+nav .menu a,
+nav .social a {
+  color: #999;
+  -webkit-transition: color 320ms ease-in;
+  -moz-transition: color 320ms ease-in;
+  -ms-transition: color 320ms ease-in;
+  -o-transition: color 320ms ease-in;
+  transition: color 320ms ease-in;
+}
+
+nav .menu a:hover,
+nav .menu a.active,
+nav .social a:hover {
+  color: #d2d605d0;
+}
+
+nav .social {
+  margin-top: 3rem;
+}
+
+nav .social a {
+  display: inline-block;
   margin-bottom: 5px;
-  top: 0px;
-}
-
-.navbar-custom {
-  background-color: #f6eedf;
-}
-
-.navbar ul li {
-  list-style-type: none;
-  display: inline;
-}
-
-.navbar-brand,
-a.nav-link {
-  letter-spacing: 0.1em;
-  font-size: 25px;
-}
-
-.nav-item {
-  padding: 0 5px;
-}
-
-.navbar-collapse {
-  justify-content: flex-end;
-}
-a.nav-link {
-  position: relative;
-}
-
-a.nav-link:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--primary-color);
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
-}
-
-a.nav-link:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
 }
 
 .container {
@@ -123,7 +129,11 @@ a.nav-link:hover:before {
 body {
   margin-top: 100px 0;
   font-family: "Lato", sans-serif;
-  background-color: white;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
 }
 
 h1,
@@ -159,6 +169,7 @@ p {
   font-size: 25px;
   padding: 20px 10px;
   margin: 10px;
+  color: var(--background-color);
 }
 
 .paragraph-style {
