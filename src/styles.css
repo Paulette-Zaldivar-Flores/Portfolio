@@ -10,59 +10,21 @@ html {
   overscroll-behavior-y: none;
 }
 
-.fade-in {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  font-family: "Lato", sans-serif;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
 }
 
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.logo {
-  max-width: 85px;
+.container {
+  font-family: "Lato", sans-serif;
 }
 
 /* Navbar CSS */
@@ -75,17 +37,20 @@ a:hover {
 nav {
   position: fixed;
   display: block;
-  width: 60px;
+  width: 80px;
   height: 100vh;
   background-color: #333;
   text-align: center;
+  margin-top: 0px;
 }
 
-nav .brand {
+nav #brand {
   font-size: 3rem;
   font-weight: 600;
   display: block;
-  background-color: #171717;
+  background-color: #d2d605d0;
+  border-color: 1px solid black;
+  color: black;
 }
 
 nav .menu {
@@ -97,8 +62,7 @@ nav .menu a {
   display: block;
 }
 
-nav .menu a,
-nav .social a {
+nav .menu a {
   color: #999;
   -webkit-transition: color 320ms ease-in;
   -moz-transition: color 320ms ease-in;
@@ -108,20 +72,9 @@ nav .social a {
 }
 
 nav .menu a:hover,
-nav .menu a.active,
-nav .social a:hover {
+nav .menu a.active {
   color: #d2d605d0;
 }
-
-nav .social {
-  margin-top: 3rem;
-}
-
-nav .social a {
-  display: inline-block;
-  margin-bottom: 5px;
-}
-
 /* End */
 
 /*Intro */
@@ -129,21 +82,14 @@ nav .social a {
   font-size: 3rem;
   font-weight: 800;
   color: #fff;
-  margin-top: 6rem;
 }
 
-.container {
-  font-family: "Lato", sans-serif;
+.yellow {
+  color: #d2d605d0;
 }
 
-body {
-  margin-top: 100px 0;
-  font-family: "Lato", sans-serif;
-  background: radial-gradient(
-    circle at 24.1% 68.8%,
-    rgb(50, 50, 50) 0%,
-    rgb(0, 0, 0) 99.4%
-  );
+section {
+  min-height: 50vh;
 }
 
 h1,
@@ -155,14 +101,8 @@ h3 {
 }
 
 h1 {
-  font-size: 80px;
-  color: rgb(132, 53, 142);
-}
-
-.division-color {
-  background-color: var(--background-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 60px;
+  color: white;
 }
 
 h2 {
@@ -196,11 +136,6 @@ p {
 
 .project-image {
   border: 5px solid #570a57;
-  border-radius: 5px;
-}
-
-.certificate-image {
-  border: 2px solid #570a57;
   border-radius: 5px;
 }
 
