@@ -122,6 +122,16 @@ nav .social a {
   margin-bottom: 5px;
 }
 
+/* End */
+
+/*Intro */
+.welcome {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 6rem;
+}
+
 .container {
   font-family: "Lato", sans-serif;
 }
@@ -250,22 +260,6 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
-}
-
-.intro-hi {
-  background: url("images/background-image.jpg");
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: var(--background-color);
-}
-
-.fade-in {
-  color: black;
-}
-#hi {
-  padding-top: 80px;
 }
 
 #rights {
