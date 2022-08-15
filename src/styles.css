@@ -1,7 +1,13 @@
 :root {
-  --primary-color: #ff00dd;
+  --primary-color: #d2d605d0;
   --secondary-color: #cdc7d9;
-  --background-color: #d2d605d0;
+  --ascent-color: #ffffff;
+  --link-color: #92ede1;
+  --background-color: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
   --box-shadow: 0 5px 10px #bf9553;
 }
 
@@ -14,13 +20,9 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-
   font-family: "Lato", sans-serif;
-  background: radial-gradient(
-    circle at 24.1% 68.8%,
-    rgb(50, 50, 50) 0%,
-    rgb(0, 0, 0) 99.4%
-  );
+  background: var(--background-color);
+  color: var(--primary-color);
 }
 
 .container {
@@ -31,7 +33,7 @@ body {
 a,
 a:hover {
   text-decoration: none;
-  color: #d2d605d0;
+  color: var(--primary-color);
 }
 
 nav {
@@ -48,7 +50,7 @@ nav #brand {
   font-size: 3rem;
   font-weight: 600;
   display: block;
-  background-color: #d2d605d0;
+  background-color: var(--primary-color);
   border-color: 1px solid black;
   color: black;
 }
@@ -73,7 +75,7 @@ nav .menu a {
 
 nav .menu a:hover,
 nav .menu a.active {
-  color: #d2d605d0;
+  color: var(--primary-color);
 }
 /* End */
 
@@ -81,11 +83,20 @@ nav .menu a.active {
 .welcome {
   font-size: 3rem;
   font-weight: 800;
-  color: #fff;
+  color: var(--ascent-color);
 }
 
 .yellow {
-  color: #d2d605d0;
+  color: var(--primary-color);
+}
+
+#paulette-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 section {
@@ -102,12 +113,12 @@ h3 {
 
 h1 {
   font-size: 60px;
-  color: white;
+  color: var(--ascent-color);
 }
 
 h2 {
   font-size: 40px;
-  color: #d2d605d0;
+  color: var(--primary-color);
 }
 
 h3 {
@@ -161,16 +172,16 @@ p {
   background: black;
   box-shadow: 2px 2px 3px;
   border-radius: 10px;
-  border: 1px solid #d2d605d0;
+  border: 1px solid var(--primary-color);
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: #d2d605d0;
+  color: var(--primary-color);
 }
 
 .primary-link:hover {
   color: #000000;
-  background: #d2d605d0;
+  background: var(--primary-color);
   transition: background 2s;
 }
 
@@ -183,16 +194,10 @@ p {
   text-transform: capitalize;
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
 #rights {
   margin-top: 80px;
   text-align: center;
-  color: #d2d605d0;
+  color: var(--primary-color);
   font-size: 12px;
 }
 
@@ -206,7 +211,7 @@ footer {
   width: 100%;
   height: 100px;
   font-size: 25px;
-  color: rgb(146, 237, 225);
+  color: var(--link-color);
 }
 
 footer {
@@ -241,33 +246,33 @@ footer .email a {
 #icons {
   font-size: 75px;
   padding: 5px 10px;
-  color: #d2d605d0;
+  color: var(--primary-color);
 }
 
 #link a {
   text-decoration: none;
-  color: #d2d605d0;
+  color: var(--primary-color);
 }
 #link a:hover {
-  color: rgb(146, 237, 225);
+  color: var(--link-color);
 }
 
 #contact a {
-  color: #d2d605d0;
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 40px;
 }
 #contact a:hover {
-  color: rgb(146, 237, 225);
+  color: var(--link-color);
 }
 #contact-me i {
   font-size: 60px;
-  color: #d2d605d0;
+  color: var(--primary-color);
   border-radius: 50%;
   padding: 5px 10px;
 }
 #contact-me i:hover {
-  color: rgb(146, 237, 225);
+  color: var(--link-color);
 }
 
 @media (max-width: 700px) {
