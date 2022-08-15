@@ -107,6 +107,7 @@ h1 {
 
 h2 {
   font-size: 40px;
+  color: #d2d605d0;
 }
 
 h3 {
@@ -159,11 +160,12 @@ p {
   text-align: center;
   background: black;
   box-shadow: 2px 2px 3px;
-  border-radius: 50px;
+  border-radius: 10px;
   border: 1px solid #d2d605d0;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  color: #d2d605d0;
 }
 
 .primary-link:hover {
