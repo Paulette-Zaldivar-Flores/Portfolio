@@ -36,8 +36,6 @@ body {
   margin: 0 !important;
   width: 100%;
   top: 0px;
-  height: 60px;
-  padding-top: 5px;
 }
 
 .navbar-custom {
@@ -49,7 +47,6 @@ body {
   display: inline;
 }
 
-.navbar-brand,
 a.nav-link {
   letter-spacing: 0.1em;
   font-size: 30px;
@@ -67,18 +64,20 @@ a.nav-link {
   position: relative;
 }
 
-nav .menu a:hover,
-nav .menu a.active {
-  color: black;
-}
-
 /* End */
 
 /*Intro */
+
 .welcome {
-  font-size: 3rem;
+  font-size: 100px;
   font-weight: 800;
   color: var(--ascent-color);
+  text-align: left;
+}
+
+#h2-greeting {
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .yellow {
@@ -89,9 +88,11 @@ nav .menu a.active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  height: 300px;
+  width: 300px;
   margin-bottom: 50px;
   margin-top: 0;
+  border-radius: 50%;
 }
 
 section {
@@ -129,9 +130,16 @@ p {
   color: var(--background-color);
 }
 
+.paragraph-style-1 {
+  padding-left: 110px;
+  padding-right: 500px;
+  text-align: left;
+  font-weight: 800;
+}
+
 .paragraph-style {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
   margin: 20px auto;
 }
 
