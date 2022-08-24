@@ -34,10 +34,16 @@ body {
 }
 /* Navbar CSS */
 
+.logo{
+  max-width: 85px;
+
+}
+
 .navbar {
   margin: 0 !important;
   width: 100%;
   top: 0px;
+
 }
 
 .navbar-custom {
@@ -47,6 +53,8 @@ body {
 .navbar ul li {
   list-style-type: none;
   display: inline;
+  
+  
 }
 
 a.nav-link {
@@ -59,12 +67,50 @@ a.nav-link {
 }
 
 .navbar-collapse {
-  justify-content: center;
+ text-align: center;
+ justify-content: center;
 }
 
 a.nav-link {
   position: relative;
 }
+
+a.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
+
+.nav-button { 
+  padding: 5px 10px;
+border-radius: 5px;
+background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+color:#d2d605;
+box-shadow: 2px 2px 3px black;
+font-weight: bold;
+letter-spacing: 0.1em;
+margin-top: 5px;}
+
+.nav-button:hover {
+
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  color: #d2d605;
+ 
+}
+
+
+
+.container{
+  font-family: "Lato",sans-serif;
+}
+
 
 /* End */
 
