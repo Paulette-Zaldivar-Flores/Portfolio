@@ -94,6 +94,15 @@ a.nav-link {
   font-size: 30px;
 }
 
+nav .navbar-nav li a {
+  color: black !important;
+}
+
+nav .navbar-nav li a:hover {
+  color: grey !important;
+  transition: ease-in 0.3s;
+}
+
 .nav-item {
   padding: 0 5px;
 }
@@ -119,31 +128,20 @@ a.nav-link:before {
 .nav-button {
   padding: 5px 10px;
   border-radius: 5px;
-  background: linear-gradient(
-    109.6deg,
-    rgba(0, 0, 0, 0.93) 11.2%,
-    rgb(63, 61, 61) 78.9%
-  );
+  background: black;
   color: #d2d605;
   box-shadow: 2px 2px 3px black;
   font-weight: bold;
   letter-spacing: 0.1em;
   margin-top: 5px;
+  font-weight: 800;
+  font-family: sans-serif;
 }
 
 .nav-button:hover {
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(0, 0, 0, 0.15) 100%
-    ),
-    radial-gradient(
-        at top center,
-        rgba(255, 255, 255, 0.4) 0%,
-        rgba(0, 0, 0, 0.4) 120%
-      )
-      #989898;
+  background: grey;
   color: #d2d605;
+  transition: ease-in 0.3s;
 }
 
 .container {
@@ -240,6 +238,13 @@ a.nav-link:before {
   border-radius: 50%;
 }
 
+#skills,
+#projects,
+#contact,
+#about-me {
+  font-size: 80px;
+}
+
 .paragraph-style-1 {
   padding-left: 110px;
   padding-right: 500px;
@@ -260,10 +265,6 @@ a.nav-link:before {
   padding-right: 300px;
   font-weight: bold;
   color: #d2d605;
-}
-
-.division-color {
-  background-color: grey;
 }
 
 .navigation-links {
