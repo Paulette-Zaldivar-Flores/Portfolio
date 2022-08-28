@@ -129,17 +129,17 @@ a.nav-link:before {
   padding: 5px 10px;
   border-radius: 5px;
   background: black;
-  color: #d2d605;
-  box-shadow: 2px 2px 3px black;
+  color: #d2d604;
+  box-shadow: 2px black;
   font-weight: bold;
   letter-spacing: 0.1em;
   margin-top: 5px;
   font-weight: 800;
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .nav-button:hover {
-  background: grey;
+  background: #808080;
   color: #d2d605;
   transition: ease-in 0.3s;
 }
@@ -189,10 +189,19 @@ a.nav-link:before {
   padding: 10px 15px;
   text-align: center;
   color: white;
+
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
   transition: 0.3s ease-in-out;
+}
+
+.container .card .content p {
+  font-size: 20px;
+}
+
+.container .card .content button {
+  margin-right: 10px;
 }
 .container .card:hover .content {
   visibility: visible;
@@ -278,37 +287,23 @@ a.nav-link:before {
   margin: 20px;
 }
 
-.project-link {
-  display: inline-block;
-  text-align: center;
-}
-
 .primary-link {
   display: inline-block;
   text-align: center;
-  background: black;
-  box-shadow: 2px 2px 3px;
+  background: #1f1f1f;
+  box-shadow: 2px;
   border-radius: 10px;
   border: 1px solid var(--primary-color);
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
   color: var(--primary-color);
+  font-weight: bold;
 }
 
 .primary-link:hover {
   color: #000000;
   background: var(--primary-color);
-  transition: background 2s;
-}
-
-.secondary-link {
-  color: var(--primary-color);
-  border: 1px solid grey;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
+  transition: background 1s;
 }
 
 #rights {
@@ -324,11 +319,12 @@ form {
 }
 
 footer {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   width: 100%;
   height: 100px;
   font-size: 25px;
-  color: var(--link-color);
+  color: black;
+  background-color: #d2d604;
 }
 
 footer {
@@ -363,33 +359,34 @@ footer .email a {
 #icons {
   font-size: 75px;
   padding: 5px 10px;
-  color: var(--primary-color);
+  color: black;
 }
 
 #link a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: black;
+  padding-bottom: 30px;
 }
 #link a:hover {
   color: var(--link-color);
 }
 
 #contact a {
-  color: var(--primary-color);
+  color: black;
   text-decoration: none;
   font-size: 40px;
 }
 #contact a:hover {
-  color: var(--link-color);
+  color: #808080;
 }
 #contact-me i {
   font-size: 60px;
-  color: var(--primary-color);
+  color: black;
   border-radius: 50%;
   padding: 5px 10px;
 }
 #contact-me i:hover {
-  color: var(--link-color);
+  color: #808080;
 }
 
 @media (max-width: 700px) {
