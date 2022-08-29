@@ -276,6 +276,12 @@ a.nav-link:before {
   color: #d2d605;
 }
 
+#icons-skills {
+  color: #d2d605;
+  font-size: 75px;
+  padding: 5px 10px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
