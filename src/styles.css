@@ -159,9 +159,10 @@ a.nav-link:before {
 }
 
 .container .card {
-  max-width: 310px;
+  width: 310px;
   height: 240px;
   margin-bottom: 0px;
+  background: #000000;
 }
 
 .image-flip:hover .backside,
@@ -185,7 +186,7 @@ a.nav-link:before {
   width: 300px;
   height: 250px;
   margin-bottom: 20px;
-  margin-right: 40px;
+  margin-right: 120px;
 }
 
 .mainflip {
@@ -237,16 +238,11 @@ a.nav-link:before {
   transform: rotateY(-180deg);
 }
 
-.card,
 .card-img-top {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
   backdrop-filter: saturate(180%) blur(10px);
-}
-
-.card-img-top {
-  object-fit: cover;
 }
 
 .card-img-overlay {
@@ -259,6 +255,17 @@ a.nav-link:before {
 @media (max-width: 330px) {
   .container .card .imgContainer {
     left: -2px;
+  }
+  .card-img-top {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-img-top {
+    width: 100%;
+
+    object-fit: cover;
   }
 }
 
