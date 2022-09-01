@@ -70,10 +70,6 @@ p {
 }
 /* Navbar CSS */
 
-.logo {
-  max-width: 85px;
-}
-
 .navbar {
   margin: 0 !important;
   width: 100%;
@@ -311,14 +307,11 @@ a.nav-link:before {
 }
 
 #paulette-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   height: 300px;
   width: 300px;
-  margin-bottom: 50px;
   margin-top: 0;
   border-radius: 50%;
+  margin-left: 40px;
 }
 
 #skills,
@@ -354,6 +347,7 @@ a.nav-link:before {
   color: #d2d605;
   font-size: 75px;
   padding: 5px 10px;
+  padding-bottom: 0px;
 }
 
 .navigation-links {
@@ -399,16 +393,17 @@ form {
 }
 
 footer {
-  margin-bottom: 10px;
   width: 100%;
   height: 100px;
   font-size: 25px;
+  font-weight: 800;
   color: black;
   background-color: #d2d604;
 }
 
 footer {
   position: relative;
+  padding-top: 25px;
 }
 
 footer::before,
@@ -427,28 +422,13 @@ footer::after {
   left: 100%;
 }
 
-footer .email {
-  margin-bottom: 40px;
-}
-
-footer .email a {
-  text-decoration: none;
-  font-family: "Lato", sans-serif;
-}
-
-#icons {
-  font-size: 75px;
-  padding: 5px 10px;
-  color: black;
-}
-
 #link a {
   text-decoration: none;
   color: black;
   padding-bottom: 30px;
 }
 #link a:hover {
-  color: var(--link-color);
+  color: #808080;
 }
 
 #contact a {
@@ -460,7 +440,7 @@ footer .email a {
   color: #808080;
 }
 #contact-me i {
-  font-size: 60px;
+  font-size: 40px;
   color: black;
   border-radius: 50%;
   padding: 5px 10px;
@@ -503,11 +483,12 @@ footer .email a {
   }
 
   footer {
-    padding: 0px 0px;
-    font-size: 20px;
-    height: 78px;
+    padding-top: 15px;
+    font-size: 15px;
+    height: 70px;
   }
-  #icons i {
-    font-size: 50px;
+
+  #contact-me i {
+    font-size: 20px;
   }
 }
