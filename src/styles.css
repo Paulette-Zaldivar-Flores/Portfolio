@@ -307,11 +307,22 @@ a.nav-link:before {
 }
 
 #paulette-image {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   margin-top: 0;
   border-radius: 50%;
-  margin-left: 40px;
+  margin-left: 150px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.paragraph-style-3 {
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #d2d605;
+}
+.text-style {
+  font-size: 20px !important;
 }
 
 #skills,
@@ -469,9 +480,11 @@ footer::after {
   }
   #paragraph-style-2 {
     padding: 20px;
+    font-size: 20px;
   }
   .paragraph-style {
     padding: 20px;
+    font-size: 20px;
   }
   .project-link {
     display: block;
@@ -490,5 +503,38 @@ footer::after {
 
   #contact-me i {
     font-size: 20px;
+  }
+  .paragraph-style-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+    font-weight: 800;
+    color: #d2d605;
+    font-size: 20px;
+  }
+  .paragraph-style-3 {
+    font-size: 20px;
+  }
+
+  #paulette-image {
+    display: block;
+    text-align: center;
+    margin-left: 120px;
+  }
+  .text-style {
+    font-size: 15px !important;
+  }
+
+  .welcome {
+    font-size: 66px;
+    font-weight: 800;
+    color: var(--ascent-color);
+    text-align: left;
+  }
+  #skills,
+  #projects,
+  #contact,
+  #about-me {
+    font-size: 60px;
   }
 }
