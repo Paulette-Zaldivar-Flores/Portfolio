@@ -312,6 +312,7 @@ h5 {
 ul {
   list-style-type: none;
   font-family: "Lato", sans-serif;
+  font-size: 22px;
 }
 /*End */
 
@@ -341,6 +342,13 @@ ul {
   padding-left: 80px;
   padding-right: 80px;
   color: #d2d605;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#work-description {
+  font-size: 20px;
 }
 
 /*Buttons and Links */
@@ -374,6 +382,7 @@ ul {
   background: var(--primary-color);
   transition: background 1s;
 }
+
 /*End */
 
 #rights {
