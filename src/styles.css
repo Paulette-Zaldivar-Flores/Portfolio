@@ -11,19 +11,14 @@
   --box-shadow: 0 5px 10px #bf9553;
 }
 
-.app-wrapper {
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-html {
+html,
+body {
   overflow-x: hidden;
   overscroll-behavior-y: none;
+  height: 100%;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Lato", sans-serif;
   background: var(--background-color);
   color: var(--primary-color);
@@ -512,12 +507,12 @@ footer::after {
 
   footer {
     padding-top: 15px;
-    font-size: 15px;
+    font-size: 10px;
     height: 70px;
   }
 
   #contact-me i {
-    font-size: 20px;
+    font-size: 15px;
   }
   .paragraph-style-1 {
     padding-left: 0px;
@@ -525,16 +520,22 @@ footer::after {
     text-align: left;
     font-weight: 800;
     color: #d2d605;
-    font-size: 20px;
+    font-size: 15px;
   }
   .paragraph-style-3 {
-    font-size: 20px;
+    font-size: 15px;
+  }
+
+  .paragraph-style-2 {
+    font-size: 15px;
   }
 
   #paulette-image {
     display: block;
     text-align: center;
-    margin-left: 120px;
+    margin-left: 90px;
+    height: 200px;
+    width: 200px;
   }
   .text-style {
     font-size: 15px !important;
@@ -550,7 +551,7 @@ footer::after {
   #projects,
   #contact,
   #about-me {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   form {
