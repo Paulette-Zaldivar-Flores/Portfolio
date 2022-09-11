@@ -455,7 +455,8 @@ footer::after {
 
 @media (max-width: 330px) {
   .container .card .imgContainer {
-    left: -2px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .card-img-top {
     width: 100%;
@@ -471,61 +472,49 @@ footer::after {
 }
 
 @media (max-width: 700px) {
-  p {
-    font-size: 16px;
-  }
-
   .navbar-nav {
     text-align: center;
   }
+
+  .welcome {
+    font-size: 50px;
+    text-align: center;
+  }
+
   h1 {
     font-size: 48px;
     line-height: 1.5;
   }
-  h2 {
-    font-size: 36px;
-    text-align: center;
-  }
+
   h3 {
     font-size: 20px;
   }
+
+  ul {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   p {
-    text-align: center;
-  }
-  #paragraph-style-2 {
-    padding: 20px;
-  }
-  .paragraph-style {
-    padding: 20px;
+    font-size: 16px;
   }
 
   .paragraph-style-1 {
     padding-left: 0px;
     padding-right: 0px;
     text-align: left;
-    font-weight: 800;
-    color: #d2d605;
-    font-size: 16px;
   }
 
-  #work p {
-    font-size: 16px;
-  }
-  .project-link {
-    display: block;
+  #paragraph-style-2 {
+    padding: 20px;
     text-align: center;
-    margin: 0 20px;
   }
 
-  footer {
-    padding-top: 15px;
-    font-size: 12px;
-    height: 70px;
-    font-weight: bolder;
-  }
-
-  #contact-me i {
-    font-size: 15px;
+  .paragraph-style-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
   }
 
   #paulette-image {
@@ -550,21 +539,33 @@ footer::after {
     font-size: 16px;
   }
 
-  .welcome {
-    font-size: 60px;
-    font-weight: 800;
-    color: var(--ascent-color);
-    text-align: left;
-  }
-
-  #intro {
-    font-size: 16px !important;
-  }
   #work,
   #projects,
   #contact,
   #about-me {
     font-size: 45px;
+  }
+
+  .image-flip {
+    margin-bottom: 20px;
+    margin-right: 350px;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  footer {
+    padding-top: 15px;
+    font-size: 12px;
+    height: 70px;
+    font-weight: bolder;
+  }
+
+  #contact-me i {
+    font-size: 15px;
   }
 
   form {
