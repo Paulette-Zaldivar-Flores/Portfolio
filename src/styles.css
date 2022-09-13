@@ -16,6 +16,7 @@ body {
   overflow-x: hidden;
   overscroll-behavior-y: none;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -36,7 +37,7 @@ h3 {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 80px;
   color: var(--ascent-color);
 }
 
@@ -52,7 +53,7 @@ h3 {
 p {
   line-height: 1.5;
   font-family: "Lato", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px 10px;
   margin: 10px;
   color: var(--background-color);
@@ -85,7 +86,7 @@ p {
 
 a.nav-link {
   letter-spacing: 0.1em;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 nav .navbar-nav li a {
@@ -108,15 +109,6 @@ nav .navbar-nav li a:hover {
 
 a.nav-link {
   position: relative;
-}
-
-a.nav-link:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
 }
 
 .nav-button {
@@ -253,8 +245,8 @@ span:nth-child(18) {
 }
 
 .container .card {
-  width: 310px;
-  height: 240px;
+  width: 180px;
+  height: 200px;
   margin-bottom: 0px;
   background: #000000;
   box-shadow: 1px 1px 1px #d2d605;
@@ -284,10 +276,10 @@ span:nth-child(18) {
 }
 
 .image-flip {
-  width: 300px;
-  height: 250px;
+  width: 180px;
+  height: 200px;
   margin-bottom: 20px;
-  margin-right: 120px;
+  margin-right: 200px;
 }
 
 .mainflip {
@@ -339,14 +331,14 @@ span:nth-child(18) {
   transform: rotateY(-180deg);
 }
 .backside p {
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 0px;
   text-align: left;
 }
 
 .backside i {
   color: #d2d604;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .backside i:hover {
@@ -366,6 +358,7 @@ span:nth-child(18) {
   margin-top: 80px;
   color: white;
   padding: 0px;
+  font-size: 18px;
 }
 
 /* End */
@@ -373,7 +366,7 @@ span:nth-child(18) {
 /*Intro */
 
 .welcome {
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 800;
   color: var(--ascent-color);
   text-align: left;
@@ -391,8 +384,8 @@ span:nth-child(18) {
 
 /*About-Me-Card */
 #paulette-image {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   margin-top: 0;
   border-radius: 50%;
   margin-left: 150px;
@@ -407,7 +400,7 @@ h5 {
 ul {
   list-style-type: none;
   font-family: "Lato", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 /*End */
 
@@ -415,11 +408,14 @@ ul {
 #projects,
 #contact,
 #about-me {
-  font-size: 80px;
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .paragraph-style-1 {
-  padding-left: 110px;
+  padding-left: 60px;
   padding-right: 500px;
   text-align: left;
   font-weight: 800;
@@ -427,8 +423,8 @@ ul {
 }
 
 #paragraph-style-2 {
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 250px;
+  padding-right: 250px;
   font-weight: bold;
   color: #d2d605;
 }
@@ -466,7 +462,7 @@ ul {
   box-shadow: 2px;
   border-radius: 10px;
   border: 1px solid var(--primary-color);
-  padding: 20px 15px;
+  padding: 15px 10px;
   text-decoration: none;
   color: var(--primary-color);
   font-weight: bold;
@@ -501,8 +497,8 @@ form {
 /*Footer */
 footer {
   width: 100%;
-  height: 100px;
-  font-size: 25px;
+  height: 70px;
+  font-size: 20px;
   font-weight: bolder;
   color: black;
   background-color: #d2d604;
@@ -510,7 +506,8 @@ footer {
 
 footer {
   position: relative;
-  padding-top: 25px;
+  padding-top: 15px;
+  margin-bottom: 0px;
 }
 
 footer::before,
@@ -547,7 +544,7 @@ footer::after {
   color: #808080;
 }
 #contact-me i {
-  font-size: 40px;
+  font-size: 30px;
   color: black;
   border-radius: 50%;
   padding: 5px 10px;
@@ -579,6 +576,8 @@ footer::after {
 @media (max-width: 700px) {
   .navbar-nav {
     text-align: center;
+
+    width: 100%;
   }
 
   .welcome {
