@@ -321,8 +321,8 @@ ul {
 .image-flip {
   width: 180px;
   height: 200px;
-  margin-bottom: 20px;
-  margin-right: 200px;
+  margin-bottom: 30px;
+  margin-right: 210px;
 }
 
 .mainflip {
@@ -425,8 +425,8 @@ ul {
 }
 
 #paragraph-style-2 {
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 300px;
+  padding-right: 300px;
   font-weight: bold;
   color: var(--primary-color);
 }
