@@ -1,7 +1,8 @@
 :root {
-  --primary-color: #d2d605d0;
+  --primary-color: #ffffff;
   --secondary-color: #cdc7d9;
-  --ascent-color: #ffffff;
+  --ascent-color: #d2d605d0;
+
   --link-color: #000000;
   --background-color: radial-gradient(
     circle at 24.1% 68.8%,
@@ -115,8 +116,8 @@ a.nav-link {
 .nav-button {
   padding: 5px 10px;
   border-radius: 5px;
-  background: var(--link-color);
-  color: var(--primary-color);
+  background: var(--ascent-color);
+  color: var(--ascent-color);
   box-shadow: 2px black;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -127,7 +128,7 @@ a.nav-link {
 
 .nav-button:hover {
   background: #808080;
-  color: var(--primary-color);
+  color: var(--ascent-color);
   transition: ease-in 0.3s;
 }
 
@@ -463,16 +464,16 @@ ul {
   background: #1f1f1f;
   box-shadow: 2px;
   border-radius: 10px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--ascent-color);
   padding: 15px 10px;
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--ascent-color);
   font-weight: bold;
 }
 
 .primary-link:hover {
   color: var(--link-color);
-  background: var(--primary-color);
+  background: var(--ascent-color);
   transition: background 1s;
 }
 
