@@ -41,11 +41,13 @@ h3 {
 h1 {
   font-size: 80px;
   color: var(--ascent-color);
+  text-shadow: 0 0 12px #d2d605d0;
 }
 
 h2 {
   font-size: 40px;
   color: var(--primary-color);
+  text-shadow: 0 0 10px #d2d605d0;
 }
 
 h3 {
@@ -294,7 +296,7 @@ ul {
   height: 200px;
   margin-bottom: 0px;
   background: var(--link-color);
-  box-shadow: 1px 1px 1px #d2d605;
+  box-shadow:   2px 2px 2px #d2d605;
 }
 
 .card-title {
@@ -463,7 +465,7 @@ ul {
   display: inline-block;
   text-align: center;
   background: #1f1f1f;
-  box-shadow: 2px;
+box-shadow:   0 0 2px 1px;
   border-radius: 10px;
   border: 1px solid var(--ascent-color);
   padding: 15px 10px;
