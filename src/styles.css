@@ -103,6 +103,10 @@ nav .navbar-nav li a:hover {
   transition: ease-in 0.3s;
 }
 
+.navbar .nav-item > .nav-link.active {
+  color: grey !important;
+}
+
 .nav-item {
   padding: 0 5px;
 }
