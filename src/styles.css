@@ -41,13 +41,13 @@ h3 {
 h1 {
   font-size: 80px;
   color: var(--ascent-color);
-  text-shadow: 0 0 12px #d2d605d0;
+
 }
 
 h2 {
   font-size: 40px;
   color: var(--primary-color);
-  text-shadow: 0 0 10px #d2d605d0;
+
 }
 
 h3 {
