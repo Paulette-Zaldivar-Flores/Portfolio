@@ -24,8 +24,8 @@
       crossorigin="anonymous"
     ></script>
 
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
 
 <link rel="stylesheet" href="src/styles.css"/>
 <meta name="description"  content="This is a portfolio website for Paulette Zaldivar Flores." />
@@ -34,13 +34,13 @@
 
 <body>
 <nav class="navbar navbar-custom navbar-expand-lg navbar-light fixed-top py-1">
-          <div class="container">
+          <div class="container-fluid">
     <a class="navbar-brand"  title= "Me"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span > <i class="fa-solid fa-bars-staggered"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="index.html" title = "Home"><i class="fa fa-home" aria-hidden="true"></i></a>
                 </li>
@@ -63,6 +63,7 @@
     <br/>
     <br/>
 
+    <span data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 <div class = "app-wrapper">
   <section class = "home mt-3">
 <div class="container" id = "home">
@@ -376,6 +377,7 @@ Styled Components </li>
           Netlify</a>
           </div>
            </footer>
+          </span>
            <script src="script.js"></script>
     </body>
      </html>
