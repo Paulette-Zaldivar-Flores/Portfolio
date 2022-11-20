@@ -27,6 +27,10 @@ body {
   min-height: 100vh;
 }
 
+body{
+  position: relative;
+}
+
 section {
   min-height: 50vh;
 }
