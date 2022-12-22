@@ -570,6 +570,13 @@ footer {
   }
 }
 
+
+
+
+
+
+
+
 @media (max-width: 700px) {
   .navbar-nav {
     text-align: center;
@@ -685,4 +692,41 @@ footer {
 
   }
 
+}
+
+@media (max-width: 900px){
+  #paulette-image {
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-left: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.paragraph-style-1 {
+  padding-left: 60px;
+  padding-right: 320px;
+  text-align: left;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+#paragraph-style-2 {
+  padding-left: 180px;
+  padding-right: 180px;
+  font-weight: bold;
+  color: var(--primary-color);
+
+}
+
+.container .card .imgContainer {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+}
 }
