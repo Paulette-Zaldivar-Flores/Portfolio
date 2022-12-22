@@ -1,0 +1,33 @@
+/*Buttons and Links */
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  display: inline-block;
+  text-align: center;
+  background: #1f1f1f;
+box-shadow:   0 0 2px 1px;
+  border-radius: 10px;
+  border: 1px solid var(--ascent-color);
+  padding: 15px 10px;
+  text-decoration: none;
+  color: var(--ascent-color);
+  font-weight: bold;
+}
+
+.primary-link:hover {
+  color: var(--link-color);
+  background: var(--ascent-color);
+  transition: background 1s;
+}
+
+/*End */

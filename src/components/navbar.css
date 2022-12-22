@@ -1,0 +1,72 @@
+/* Navbar CSS */
+
+.fa-bars-staggered {
+  color: var(--link-color);
+}
+
+.navbar {
+  margin: 0 !important;
+  width: 100%;
+  top: 0px;
+}
+
+.navbar-custom {
+  background-color: #d2d605;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+a.nav-link {
+  letter-spacing: 0.1em;
+  font-size: 25px;
+}
+
+nav .navbar-nav li a {
+  color: var(--link-color) !important;
+}
+
+nav .navbar-nav li a:hover {
+  color: grey !important;
+  transition: ease-in 0.3s;
+}
+
+.navbar .nav-item > .nav-link.active {
+  color: grey !important;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.navbar-collapse {
+  text-align: center;
+  justify-content: center;
+}
+
+
+.nav-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: var(--ascent-color);
+  color: var(--ascent-color);
+  box-shadow: 2px black;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-top: 5px;
+  font-weight: 800;
+  font-family: "Lato", sans-serif;
+}
+
+.nav-button:hover {
+  background: #808080;
+  color: var(--ascent-color);
+  transition: ease-in 0.3s;
+}
+
+.container {
+  font-family: "Lato", sans-serif;
+}
+/* End */
