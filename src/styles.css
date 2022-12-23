@@ -171,10 +171,12 @@ form {
     rgb(0, 0, 0) 99.4%
   );
   border: 1px solid #d2d605d0;
-  color: #ffffff;
 }
 
 
+#senderName, #SenderMessage, #senderEmail{
+  color: white;
+}
 
 
 
