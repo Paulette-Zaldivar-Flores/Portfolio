@@ -194,6 +194,10 @@ form {
     object-fit: cover;
   }
 
+  .card{
+    width: 17rem;
+  }
+
 
 }
 
@@ -201,6 +205,10 @@ form {
   .card-img-top {
     width: 100%;
     object-fit: cover;
+  }
+
+  .card {
+    width: 17rem;
   }
 }
 
@@ -310,6 +318,10 @@ form {
 
   }
 
+  .card{
+    width: 17rem;
+  }
+
 }
 
 @media (max-width: 900px){
@@ -345,7 +357,7 @@ form {
 }
 
 .card{
-  width: 17rem;
+  width: 20rem;
 }
 
 }
