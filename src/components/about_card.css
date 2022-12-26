@@ -20,4 +20,9 @@ ul {
   font-family: "Lato", sans-serif;
   font-size: 20px;
 }
+
+.about-me-card .col{
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
 /*End */

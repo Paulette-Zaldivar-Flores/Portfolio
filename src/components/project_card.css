@@ -1,12 +1,3 @@
-/* Projects */
- /* .card-wrapper {
-  min-width: 100vw;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-} */
-
-
 
 .col{
   margin-right: 180px;
@@ -27,6 +18,10 @@
   background-color: black;
 }
 
+.modal-footer a {
+  color: #00ffff;
+}
+
 .btn-close{
-  background-color: aqua;
+  background-color: #00ffff;
 }
