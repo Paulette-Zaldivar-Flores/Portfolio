@@ -18,7 +18,7 @@
 :root {
   --primary-color: #ffffff;
   --secondary-color: #cdc7d9;
-  --ascent-color: #d2d605d0;
+  --ascent-color: #00ffff;
   --link-color: #000000;
   --background-color: radial-gradient(
     circle at 24.1% 68.8%,
@@ -105,7 +105,7 @@ p {
   margin-bottom: 30px;
 }
 
-.yellow {
+.blue {
   color: var(--primary-color);
 }
 /*End */
@@ -170,7 +170,7 @@ form {
     rgb(50, 50, 50) 0%,
     rgb(0, 0, 0) 99.4%
   );
-  border: 1px solid #d2d605d0;
+  border: 1px solid #00ffff;
 }
 
 
@@ -285,23 +285,9 @@ form {
     font-size: 45px;
   }
 
-  .image-flip {
-    margin-bottom: 20px;
-    margin-right: 350px;
-    padding: 0px;
-  }
 
-  .container .card {
-    width: 355px !important;
-  }
 
-  .backside p {
-    font-size: 16px;
-  }
 
-  .backside i {
-    font-size: 18px;
-  }
 
   .project-link {
     display: block;
@@ -358,12 +344,8 @@ form {
 
 }
 
-.container .card .imgContainer {
-  margin: 0 auto;
-}
-.card-img-top {
-  width: 100%;
-  object-fit: cover;
+.card{
+  width: 16.2rem;
 }
 
 }
