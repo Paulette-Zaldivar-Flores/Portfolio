@@ -25,3 +25,10 @@
 .btn-close{
   background-color: #00ffff;
 }
+
+.cards-wrapper{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
