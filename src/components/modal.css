@@ -1,0 +1,108 @@
+/*Modal Card CSS*/
+
+
+
+.card {
+  width: 26rem;
+  text-align: center;
+  background-color: #000000;
+  border: 3px solid #00ffff;
+}
+
+.col{
+  margin-right: 180px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+.cards-wrapper{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
+.modal-dialog{
+  padding-top: 100px;
+  color:#ffffff;
+}
+
+.modal-content{
+  background-color: #000000;
+}
+
+.fa-rectangle-xmark,.fa-laptop,.fa-github{
+  color: #00ffff;
+
+}
+
+.fa-rectangle-xmark,.fa-laptop,.fa-github:hover{
+  color: #69d5d5;
+}
+
+
+/* The Modal (background) */
+.modal-button {
+  display: inline-block;
+  text-align: center;
+  box-shadow: 2px 2px 3px aqua;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid aqua;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  background: #0b0b0b;
+}
+[id^=modal] {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+[id^=modal]:target {
+  display: block;
+}
+input[type=checkbox] {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+.popup {
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.popup__overlay {
+  position: fixed;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000000b3;
+}
+.popup__wrapper {
+  position: fixed;
+  z-index: 9;
+  width: 80%;
+  max-width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  padding: 58px 32px 32px 32px;
+  background: rgb(40, 40, 40);
+}
+.popup__close {
+  position: absolute;
+  top: 16px;
+  right: 26px;
+}
+/*end */
