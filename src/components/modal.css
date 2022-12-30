@@ -1,6 +1,3 @@
-/*Modal Card CSS*/
-
-
 
 .card {
   width: 26rem;
@@ -14,10 +11,6 @@
   margin-bottom: 40px;
 }
 
-
-
-
-
 .cards-wrapper{
   display: block;
   margin-left: auto;
@@ -26,6 +19,9 @@
 }
 
 
+.modal-title{
+  color:var(--ascent-color);
+}
 
 .modal-dialog{
   padding-top: 100px;
@@ -36,14 +32,28 @@
   background-color: #000000;
 }
 
-.fa-rectangle-xmark,.fa-laptop,.fa-github{
+.modal-footer{
+  font-size: 25px;
+
+}
+
+.modal-footer i{
   color: #00ffff;
-
 }
 
-.fa-rectangle-xmark,.fa-laptop,.fa-github:hover{
-  color: #69d5d5;
+.modal-footer i:hover{
+  color: #09d9d9;
 }
+
+.popup__close{
+  color: #00ffff;
+  font-size: 25px;
+}
+
+.popup__close:hover{
+  color: #09d9d9;
+}
+
 
 
 /* The Modal (background) */
