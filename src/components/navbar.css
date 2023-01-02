@@ -1,22 +1,15 @@
-/* Navbar CSS */
 
-.fa-bars-staggered {
-  color: var(--link-color);
-}
 
-.navbar {
-  margin: 0 !important;
-  width: 100%;
-  top: 0px;
-}
 
 .navbar-custom {
-  background-color:aqua;
+  background:#020202;
 }
 
 .navbar ul li {
   list-style-type: none;
   display: inline;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
 }
 
 a.nav-link {
@@ -25,16 +18,16 @@ a.nav-link {
 }
 
 nav .navbar-nav li a {
-  color: var(--link-color) !important;
+  color: var(--primary-color) !important;
 }
 
 nav .navbar-nav li a:hover {
-  color: grey !important;
+  color: #808080 !important;
   transition: ease-in 0.3s;
 }
 
 .navbar .nav-item > .nav-link.active {
-  color: grey !important;
+  color: #00ffff !important;
 }
 
 .nav-item {
@@ -69,4 +62,3 @@ nav .navbar-nav li a:hover {
 .container {
   font-family: "Lato", sans-serif;
 }
-/* End */

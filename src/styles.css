@@ -25,39 +25,59 @@
     rgb(50, 50, 50) 0%,
     rgb(0, 0, 0) 99.4%
   );
-  --box-shadow: 0 5px 10px #bf9553;
+}
+
+html.md-perspective {
+	height: auto;
+	overflow: auto;
+}
+
+.md-perspective body {
+  background: #222;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  perspective: 600px;
+}
+
+html.md-perspective body {
+  -webkit-perspective: none;
+  -moz-perspective: none;
+  perspective: none;
 }
 
 /* Utilities */
 
-.scrollspy{
-  position: relative;
-  height: 100%;
-  overflow-y: scroll;
+.logo {
+  max-width: 40px;
+}
+.container1{
+  padding-top: 100px;
+  padding-left:80px;
+}
+
+html {
+  overscroll-behavior-y: none;
 }
 
 html,
 body {
   overflow-x: hidden;
-  overscroll-behavior-y: none;
-  height: 100%;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  background: var(--background-color);
-  color: var(--primary-color);
-  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
 }
 
 body{
   position: relative;
+  overflow: hidden;
+  color: var(--primary-color);
+  font-family: "Lato", sans-serif;
 }
 
-section {
-  min-height: 50vh;
-}
 
 h1,
 h2,
@@ -365,6 +385,11 @@ form {
 
 .card {
   width: 21rem;
+}
+
+.container1{
+  padding-top: 80px;
+  padding-left:0;
 }
 
 }
