@@ -1,3 +1,20 @@
+/*Intro */
+
+.welcome {
+  font-size: 80px;
+  font-weight: 800;
+  color: var(--ascent-color);
+  text-align: left;
+}
+
+#h2-greeting {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.white {
+  color: var(--primary-color);
+}
 /* H2 Animation */
 
 h2 {

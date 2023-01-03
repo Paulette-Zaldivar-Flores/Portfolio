@@ -1,37 +1,17 @@
 /*Buttons and Links */
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  font-family: "Lato", sans-serif;
-}
-
-.navigation-links a {
-  margin: 20px;
-}
-
-.a{
-  background-color: aqua;
-}
-
-.a {
-  background-color: grey;
-
-
-}
-
 .primary-link {
   display: inline-block;
   text-align: center;
   background: #1f1f1f;
-box-shadow:   0 0 2px 1px;
+  box-shadow: 0 0 2px 1px;
   border-radius: 10px;
   border: 1px solid var(--ascent-color);
   padding: 15px 10px;
   text-decoration: none;
   color: var(--ascent-color);
   font-weight: bold;
+  font-family: "Lato", sans-serif;
 }
 
 .primary-link:hover {
@@ -39,5 +19,14 @@ box-shadow:   0 0 2px 1px;
   background: var(--ascent-color);
   transition: background 1s;
 }
+
+.primary-link:active {
+  box-shadow:
+    7px 6px 28px 1px rgba(85, 210, 238, 0.746);
+  transform: translateY(4px);
+  /* Moving button 4px to y-axis */
+}
+
+
 
 /*End */

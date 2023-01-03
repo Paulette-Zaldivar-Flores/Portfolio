@@ -21,6 +21,7 @@
 
 .modal-title{
   color:var(--ascent-color);
+  font-weight: bolder;
 }
 
 .modal-dialog{

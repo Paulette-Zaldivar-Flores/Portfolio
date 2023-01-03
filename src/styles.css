@@ -117,27 +117,6 @@ p {
 }
 
 
-
-/*Intro */
-
-.welcome {
-  font-size: 80px;
-  font-weight: 800;
-  color: var(--ascent-color);
-  text-align: left;
-}
-
-#h2-greeting {
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-
-.blue {
-  color: var(--primary-color);
-}
-/*End */
-
-
 #work,
 #projects,
 #contact,
