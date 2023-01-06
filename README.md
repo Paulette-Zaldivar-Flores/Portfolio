@@ -40,7 +40,7 @@ List the ready features here:
 
 ## Screenshots
 
-<img width="1280" alt="Portfolio" src="https://user-images.githubusercontent.com/96970580/190126027-38ca7da1-a324-4fe1-b53d-e697668d9f7e.png">
+<img width="1280" alt="Portfolio" src="https://user-images.githubusercontent.com/96970580/210963234-60f08569-24a8-4d6c-8b1e-5a16c40a267e.png">
 
 
 
