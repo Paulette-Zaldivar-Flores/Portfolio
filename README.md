@@ -9,7 +9,6 @@
 * [Screenshots](#screenshots)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 
 
@@ -60,9 +59,6 @@ To do:
 <ul>
   <li>Adding more projects</li><ul>
 
-
-## Acknowledgements
-  <ul><li>This README.md was inspired by <a href ="https://github.com/ritaly"> Ritaly</a></li></ul>
 
 ## Contact
 Created by [Paulette](https://paulette-zaldivar-flores.netlify.app/) - feel free to contact me!
