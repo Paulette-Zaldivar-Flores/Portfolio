@@ -45,7 +45,16 @@ html.md-perspective body {
   perspective: none;
 }
 
-/* Utilities */
+/* Global CSS */
+
+a{
+  text-decoration: none;
+  color:#00ffff
+}
+
+a:hover{
+  color: #abb9b9;
+}
 
 .logo {
   max-width: 40px;
@@ -363,7 +372,9 @@ form {
 }
 
 .card {
-  width: 21rem;
+  width: 18rem;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .container1{

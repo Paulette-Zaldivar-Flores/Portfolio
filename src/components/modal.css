@@ -1,20 +1,21 @@
 .card {
-  width: 26rem;
+
   text-align: center;
   background-color: #000000;
   border: 3px solid #00ffff;
+  margin: 10px;
 }
 
-.col{
+/* .col{
   margin-right: 180px;
   margin-bottom: 40px;
-}
+} */
 
-.cards-wrapper{
-  display:grid;
-  place-items: center;
+/* .cards-wrapper{
+  display:flex;
+  align-items: center;
 
-}
+} */
 
 
 .modal-title{
