@@ -13,7 +13,13 @@
 @import url("components/footer.css");
 @import url("components/modal.css");
 
-
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
 :root {
   --primary-color: #ffffff;
@@ -78,7 +84,32 @@ body {
     rgb(50, 50, 50) 0%,
     rgb(0, 0, 0) 99.4%
   );
+
 }
+
+
+
+/*
+  background: linear-gradient(-45deg, rgba(59,173,227,1) 0%,
+  rgba(87,111,230,1) 25%,
+  rgba(152,68,183,1) 51%,
+  rgba(255,53,127,1) 100%);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+} */
+
 
 body{
   position: relative;
@@ -111,6 +142,7 @@ h3 {
   font-size: 30px;
 }
 
+
 p {
   line-height: 1.5;
   font-family: "Lato", sans-serif;
@@ -119,6 +151,8 @@ p {
   margin: 10px;
   color: var(--background-color);
 }
+
+
 
 .container {
   font-family: "Lato", sans-serif;
@@ -140,14 +174,12 @@ p {
   padding-left: 60px;
   padding-right: 500px;
   text-align: left;
-  font-weight: 800;
   color: var(--primary-color);
 }
 
 #paragraph-style-2 {
   padding-left: 300px;
   padding-right: 300px;
-  font-weight: bold;
   color: var(--primary-color);
 }
 
@@ -157,14 +189,18 @@ p {
   color: var(--primary-color);
   font-family: "Lato", sans-serif;
   font-size: 20px;
-  font-weight: bold;
 }
 
 #work-description {
   font-size: 20px;
 }
 
-
+.experience{
+  padding: 20px;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+}
 
 #rights {
   margin-top: 80px;
@@ -222,6 +258,7 @@ form {
     object-fit: cover;
   }
 
+
   .card {
     width: 21rem;
   }
@@ -250,12 +287,13 @@ form {
 
   ul {
     font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   p {
     font-size: 16px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #paragraph-style-1 {
@@ -265,7 +303,6 @@ form {
   }
 
   #paragraph-style-2 {
-    padding: 20px;
     text-align: left;
     padding-left: 10px !important;
     padding-right: 10px !important;
@@ -289,8 +326,9 @@ form {
 
   .about-me-card p {
     font-size: 16px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .about-me-card li {
@@ -299,7 +337,21 @@ form {
 
   .about-me-card h5 {
     font-size: 16px;
+    padding-left: 20px;
+    padding-right:20px;
   }
+
+  .experience{
+    padding: 10px 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #healthpocket {
+    object-fit: fill;
+  }
+
+
 
   #work,
   #projects,
@@ -307,10 +359,6 @@ form {
   #about-me {
     font-size: 45px;
   }
-
-
-
-
 
   .project-link {
     display: block;
@@ -340,26 +388,25 @@ form {
 }
 
 @media (max-width: 900px){
-  .welcome {
-    font-size: 50px;
-    text-align: left;
+.welcome {
+  font-size: 50px;
+  text-align: left;
 }
 
 #paulette-image {
   height: 200px;
   width: 200px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   border-radius: 50%;
   margin-left: 50px;
   text-align: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 #paragraph-style-1 {
   padding-left: 60px;
   padding-right: 320px;
   text-align: left;
-  font-weight: 800;
   color: var(--primary-color);
 }
 
@@ -368,7 +415,10 @@ form {
   padding-right: 180px;
   font-weight: bold;
   color: var(--primary-color);
+}
 
+#paragraph-style-3{
+  margin-top: 0;
 }
 
 .card {
@@ -381,5 +431,7 @@ form {
   padding-top: 80px;
   padding-left:0;
 }
+
+
 
 }

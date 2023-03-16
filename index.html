@@ -32,7 +32,9 @@ crossorigin="anonymous"></script>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFST9DQ"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-
+  <!-- <video autoplay loop muted plays-inline>
+    <source src="images/stars.mp4" type="video/mp4">
+  </video> -->
   <nav class="navbar navbar-custom navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html" title= "logo"><img src= "images/logo.png" alt = "me" class = "logo"/></a>
@@ -60,7 +62,6 @@ crossorigin="anonymous"></script>
     </div>
     </div>
 </nav>
-
   <section id="scrollspyHeading1">
             <div class="container1">
               <h2 class="welcome"> <div id ="h2-greeting"> Hello my name is</div> <span class="blue">Paulette Zaldivar Flores </span> <br> I design and  build <br>web applications</h2>
@@ -71,7 +72,7 @@ crossorigin="anonymous"></script>
               </p>
             </div>
           </section>
-        <br>
+
         <section id="scrollspyHeading2">
         <div id="intro-contact">
           <h1 id = "about-me">- About Me -</h1>
@@ -86,7 +87,7 @@ crossorigin="anonymous"></script>
               <p>
                 Hi 👋🏽 my name is Paulette I am a frontend developer with over a decade of teaching experience. I am a developer with a proven ability to collaborate effectively in a team to produce clean and effective applications. I am passionate about how users experience technology through my programming knowledge. Furthermore, I am ready to apply my passion of bringing ideas to life to an inclusive team that fosters professional growth, empathy and creativity. Feel free to contact me.
               </p>
-              <h5>Some technologies I am currently working with:</h5>
+              <h5 class = "tech">Some technologies I am currently working with:</h5>
               <ul>
                 <li>▷ React.js</li>
                 <li>▷ JavaScript</li>
@@ -105,28 +106,15 @@ crossorigin="anonymous"></script>
 
         <section id="scrollspyHeading3">
           <h1 id = "work"> -Experience- </h1>
-          <div class = "paragraph-style-3 mb-3">
-            <p>
-              <h5>Junior Software Engineer Intern | Mamoru| Remote, February 2023-Present | <a href ="https://app.mamoru.earth/en/" >Mamoru Earth</a></h5>
-            <ul>
-              <li>◆ Developed modern and responsive user interfaces using React.js and other front-end technologies to deliver dynamic web applications with enhanced user experience.</li>
-              <li>◆ Collaborated with cross-functional teams in weekly stand-ups and weekly sprint reviews to identify and resolve software defects</li>
-              <li>◆ Conducted thorough testing and debugging to identify and resolve software defects</li>
-            </ul>
-            <br><h5>Frontend Developer | Chingu.io | Remote, August 2022-September 2022| EZ Cocktails</h5>
-            <ul>
-              <li>◆ Collaborated with my team within an agile environment to develop the design and prototype of the application utilizing Figma.</li>
-              <li>◆ Implemented the design and functionality with React.js,React Router and
-              Styled Components </li>
-            </ul>
-            <br>
-            <h5>UX/UI Designer | Athena Hackathon | Remote, June 2022| Mind the Gap</h5>
-            <ul>
-              <li>◆ Developed the frames of the application with Figma based on extensive research on government statistic applications in the U.K.</li>
-              <li>◆ Presented prototype, made updates using team feedback and delivered design within 24 hours</li>
-          </ul>
-          </p>
-          </div>
+          <!-- <div class = "paragraph-style-3 mb-3">
+            <p> -->
+            <h5 class = "experience">Junior Software Engineer Intern | Mamoru| Remote, February 2023-Present | <a href ="https://app.mamoru.earth/en/" >Mamoru Earth</a></h5>
+
+            <h5 class = "experience" >Frontend Developer | Chingu.io | Remote, August 2022-September 2022| EZ Cocktails</h5>
+
+            <h5 class = "experience">UX/UI Designer | Athena Hackathon | Remote, June 2022| Mind the Gap</h5>
+          <!-- </p>
+          </div> -->
           <div class = "text-center navigation-links">
             <a href="https://drive.google.com/file/d/1LHmTEhk9pZKbJCbaQuqBDyOqfFZzyTU3/view?usp=sharing" target = "blank" class ="primary-link">
             Resume</a>
@@ -141,6 +129,27 @@ crossorigin="anonymous"></script>
             <div class="container">
               <!-- <div class = "cards-wrapper"> -->
               <div class = "row justify-content-center">
+
+                <div class="col-sm col-md-6">
+                  <a href="#modal3">
+                    <div class="card project-card">
+                    <video src="images/healthpocket.mp4" class="card-img-top" id = "healthpocket" playsinline muted autoplay loop></video>
+                    </a>
+                    <div class="popup" id="modal3">
+                      <a class="popup__overlay" href="#"></a>
+                      <div class="popup__wrapper">
+                        <a class= "popup-close" href="#234"><i class="fa-regular fa-rectangle-xmark"></i></a>
+                          <h5 class = "modal-title">Health Pocket</h5>
+                        <p>A mobile application that allows you upload, translate and share medical documents.
+                        </p>
+                        <div class="modal-footer">
+                          <a href="https://github.com/SarahVh92/health-pocket" target="blank"><i class="fa-brands fa-github"> </a></i>
+                          <a href="https://www.healthpocket.online" target = "blank"> <i class="fa-solid fa-laptop"></a></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               <div class="col-sm col-md-6">
                 <a href="#modal1">
                   <div class="card project-card">
@@ -162,9 +171,6 @@ crossorigin="anonymous"></script>
                     </div>
                   </div>
 
-
-
-
             <div class="col-sm col-md-6">
               <a href="#modal2">
                 <div class="card project-card">
@@ -183,34 +189,7 @@ crossorigin="anonymous"></script>
                   </div>
                 </div>
               </div>
-              </div>
-
-
-
-
-            <div class="col-sm col-md-6">
-              <a href="#modal3">
-                <div class="card project-card">
-                <video src="images/epoch.mp4" class="card-img-top" playsinline muted autoplay loop></video>
-                </a>
-                <div class="popup" id="modal3">
-                  <a class="popup__overlay" href="#"></a>
-                  <div class="popup__wrapper">
-                    <a class= "popup-close" href="#234"><i class="fa-regular fa-rectangle-xmark"></i></a>
-                      <h5 class = "modal-title">Epoch</h5>
-                    <p>Epoch is a webiste for a furniture company that allows the user to view products, view customer reviews and sign up for their newsletter
-                    </p>
-                    <div class="modal-footer">
-                      <a href="https://github.com/Paulette-Zaldivar-Flores/Epoch-Furniture" target="blank"><i class="fa-brands fa-github"> </a></i>
-                      <a href="https://epoch-furniture.netlify.app/" target="blank"> <i class="fa-solid fa-laptop"></a></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-
-
-
 
             <div class="col-sm col-md-6">
               <a href="#modal4">
@@ -288,6 +267,7 @@ crossorigin="anonymous"></script>
         <div>
           <p id ="rights">© 2023 Paulette Zaldivar Flores. All Rights Reserved.</p>
         </div>
+
     <footer class="text-center">
       <div  id="contact-me" class="icons">
         <div id = "link">
@@ -303,4 +283,6 @@ crossorigin="anonymous"></script>
         </div>
         </div>
     </footer>
+    <script src="index.js"></script>
+    </body>
   </html>
