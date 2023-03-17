@@ -1,6 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
@@ -115,7 +115,7 @@ body{
   position: relative;
   overflow: hidden;
   color: var(--primary-color);
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -145,7 +145,6 @@ h3 {
 
 p {
   line-height: 1.5;
-  font-family: "Lato", sans-serif;
   font-size: 20px;
   padding: 20px 10px;
   margin: 10px;
@@ -155,7 +154,6 @@ p {
 
 
 .container {
-  font-family: "Lato", sans-serif;
   color: var(--primary-color);
 }
 
@@ -187,7 +185,6 @@ p {
   padding-left: 100px;
   padding-right: 100px;
   color: var(--primary-color);
-  font-family: "Lato", sans-serif;
   font-size: 20px;
 }
 
@@ -228,9 +225,6 @@ form {
 #senderName, #SenderMessage, #senderEmail{
   color: white;
 }
-
-
-
 
 
 /* Responsiveness */
@@ -351,8 +345,6 @@ form {
     object-fit: fill;
   }
 
-
-
   #work,
   #projects,
   #contact,
@@ -413,7 +405,6 @@ form {
 #paragraph-style-2 {
   padding-left: 180px;
   padding-right: 180px;
-  font-weight: bold;
   color: var(--primary-color);
 }
 
@@ -431,7 +422,5 @@ form {
   padding-top: 80px;
   padding-left:0;
 }
-
-
 
 }

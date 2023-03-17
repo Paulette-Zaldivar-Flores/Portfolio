@@ -11,14 +11,14 @@
 }
 
 h5 {
-  font-family: "Lato", sans-serif;
   font-size: 20px;
 }
 
 ul {
   list-style-type: none;
-  font-family: "Lato", sans-serif;
   font-size: 20px;
+  margin: 4px 2px;
+  color:#e9f6b6;
 }
 
 .about-me-card .col{
