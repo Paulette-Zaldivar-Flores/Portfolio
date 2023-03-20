@@ -6,16 +6,10 @@
   margin: 10px;
 }
 
-/* .col{
-  margin-right: 180px;
-  margin-bottom: 40px;
-} */
+.project-video:hover{
+  filter: brightness(60%);
+}
 
-/* .cards-wrapper{
-  display:flex;
-  align-items: center;
-
-} */
 
 
 .modal-title{
