@@ -168,6 +168,12 @@ p {
   text-align: center;
 }
 
+.social{
+  font-size: 60px;
+  margin: 20px;
+  text-align: center;
+}
+
 #paragraph-style-1 {
   padding-left: 60px;
   padding-right: 500px;
@@ -421,6 +427,11 @@ form {
 .container1{
   padding-top: 80px;
   padding-left:0;
+}
+
+.social{
+  font-size: 40px;
+  margin: 20px;
 }
 
 }
