@@ -14,11 +14,33 @@ h5 {
   font-size: 20px;
 }
 
-ul {
-  list-style-type: none;
-  font-size: 20px;
-  margin: 4px 2px;
-  color:#e9f6b6;
+.pill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.pill {
+  background-color: #eaf9ad;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  color: #333131;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px){
+  .pill-list {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
 }
 
 /*End */
