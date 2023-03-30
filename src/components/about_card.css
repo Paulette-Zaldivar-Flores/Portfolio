@@ -1,10 +1,9 @@
-/*About-Me-Card */
 #paulette-image {
   height: 300px;
   width: 300px;
   margin-top: 0;
   border-radius: 50%;
-  border: 1px solid #00ffff;
+  border: 2px solid #00ffff;
   margin-left: 75px;
   text-align: center;
   margin-bottom: 20px;
@@ -37,10 +36,10 @@ h5 {
 
 @media (max-width: 600px){
   .pill-list {
-    margin-left: 20px;
-    margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
   }
 
 }
-
-/*End */
