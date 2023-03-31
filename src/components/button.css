@@ -2,7 +2,6 @@
   display: inline-block;
   text-align: center;
   background: #1f1f1f;
-  box-shadow: 0 0 2px 1px;
   border-radius: 10px;
   border: 1px solid var(--ascent-color);
   padding: 15px 10px;
@@ -10,6 +9,7 @@
   color: var(--ascent-color);
   font-weight: bold;
   font-family: "Lato", sans-serif;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
 .primary-link:hover {
@@ -25,20 +25,27 @@
   /* Moving button 4px to y-axis */
 }
 
+.fa-envelope{
+  color: var(--ascent-color);
+}
+
 .social{
   font-size: 60px;
   margin: 20px;
   text-align: center;
-
-
-
 }
 
-/* .fa-github-alt{
+.social-icons {
+  padding: 10px;
   background: rgba( 255, 255, 255, 0.3 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 3px );
 -webkit-backdrop-filter: blur( 3px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-} */
+}
+
+.social-icons:hover{
+  background-color: rgba(0, 0, 0, 0.37);
+
+}

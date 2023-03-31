@@ -3,11 +3,13 @@
   font-weight: 800;
   color: var(--ascent-color);
   text-align: left;
+  text-shadow: 2px 2px 2px rgb(132, 130, 130);
 }
 
 #h2-greeting {
   font-size: 30px;
   margin-bottom: 30px;
+  text-shadow: 2px 2px 2px rgb(132, 130, 130);
 }
 
 .white {
