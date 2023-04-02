@@ -13,14 +13,14 @@
 
 
 ## General Information
-<ul><li>The goal of this project was to give insight of my skills as a frontend developer</li></ul>
+<ul><li>The goal of this project is to give insight of my skills as a frontend developer</li></ul>
 
 
 ## Technologies Used
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
-  <li>jQuery (JavaScript)</li>
+  <li>JavaScript</li>
   <li>Responsive Web Development</li> </ul>
   
   
@@ -34,7 +34,8 @@
 List the ready features here:
 <ul>
   <li>Project highlights</li>
-  <li>Contact form</li> </ul>
+  <li>Contact form</li>
+  <li>Modal windows for project information</li></ul>
 
 
 ## Screenshots
@@ -46,7 +47,7 @@ List the ready features here:
 
 ## Project Status
 <ul>
-<li>Project is: completed</li></ul>
+<li>Project is: in progress</li></ul>
 
 
 ## Room for Improvement
