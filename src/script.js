@@ -4,6 +4,26 @@
     }, 2000); // 2 seconds
   });
 
+//   // select the element to animate
+// const element = document.querySelector('.animate__animated.animate__slideInLeft');
+
+// // add a scroll event listener to the window object
+// window.addEventListener('scroll', () => {
+//   // get the position of the element relative to the viewport
+//   const bounding = element.getBoundingClientRect();
+
+//   // check if the element is currently visible on the screen
+//   if (
+//     bounding.top >= 0 &&
+//     bounding.left >= 0 &&
+//     bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+//     bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+//   ) {
+//     // add the "animate__animated animate__slideInLeft" class to the element
+//     element.classList.add('animate__animated', 'animate__slideInLeft');
+//   }
+// });
+
 
 
 
