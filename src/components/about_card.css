@@ -18,15 +18,17 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  padding: 0;
+  padding: 20px;
   margin: 0;
+
 }
 
 .pill {
   background-color: #eaf9ad;
-  border-radius: 1.5rem;
-  padding: 0.5rem 1.5rem;
-  font-size: 0.9rem;
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 50px;
+  margin: 10px;
   line-height: 1.2rem;
   color: #333131;
   text-align: center;
@@ -35,12 +37,25 @@ h5 {
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
+
+
 @media (max-width: 600px){
   .pill-list {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
+  }
+
+  .pill{
+    font-size: 50px;
+    margin: 2px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .pill-icon{
+    font-size: 35px;
   }
 
 }
