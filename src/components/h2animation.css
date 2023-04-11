@@ -1,14 +1,16 @@
 .welcome {
-  font-size: 80px;
+  font-size: 100px;
+  text-align: left;
   font-weight: 800;
   color: var(--ascent-color);
-  text-align: left;
   text-shadow: 2px 2px 2px rgb(132, 130, 130);
+  padding-top: 80px;
+  padding-bottom:100px;
+  line-height:1.5;
 }
 
 #h2-greeting {
   font-size: 30px;
-  margin-bottom: 30px;
   text-shadow: 2px 2px 2px rgb(132, 130, 130);
 }
 

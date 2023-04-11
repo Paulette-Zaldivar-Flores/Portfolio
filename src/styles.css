@@ -105,7 +105,7 @@ h3 {
 
 
 p {
-  line-height: 1.5;
+  line-height: 1.7;
   font-size: 20px;
   padding: 20px 10px;
   margin: 10px;
@@ -150,12 +150,7 @@ p {
   color: var(--primary-color);
 }
 
-.paragraph-style-3 {
-  padding-left: 100px;
-  padding-right: 100px;
-  color: var(--primary-color);
-  font-size: 20px;
-}
+
 
 #tech{
   color: #EAF9AD;
@@ -244,6 +239,8 @@ form {
   .welcome {
     font-size: 45px !important;
     text-align: center !important;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   h1 {
@@ -400,9 +397,27 @@ form {
   padding-left:0;
 }
 
-.social{
+
+.social {
   font-size: 40px;
   margin: 20px;
+  display: flex;
+  justify-content: center;
 }
+
+.social div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.label {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+
 
 }
