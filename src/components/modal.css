@@ -15,6 +15,7 @@
 .modal-title{
   color:var(--ascent-color);
   font-weight: bolder;
+  font-size: 25px;
 }
 
 .modal-dialog{
@@ -49,7 +50,7 @@
 }
 
 .fa-rectangle-xmark{
-  padding-left: 300px;
+  padding-left: 350px;
   color: #00ffff;
   font-size: 25px;
 }

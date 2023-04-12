@@ -94,7 +94,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 60px;
   color: var(--primary-color);
 
 }
@@ -106,7 +106,7 @@ h3 {
 
 p {
   line-height: 1.7;
-  font-size: 20px;
+  font-size: 25px;
   padding: 20px 10px;
   margin: 10px;
   color: var(--background-color);
@@ -128,9 +128,8 @@ p {
 #projects,
 #contact,
 #about-me {
-  font-size: 60px;
   margin-bottom: 10px;
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center;
   text-shadow: 2px 2px 2px rgb(132, 130, 130);
 }
@@ -284,9 +283,6 @@ form {
 
 
   #paulette-image {
-    display: block;
-    text-align: center;
-    margin-left: 90px !important;
     height: 200px;
     width: 200px;
   }
@@ -365,8 +361,6 @@ form {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  margin-left: 50px;
-  text-align: center;
 }
 
 #paragraph-style-1 {
