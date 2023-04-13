@@ -311,7 +311,7 @@ form {
   }
 
   .button{
-    padding: 20px;
+    padding: 15px;
     font-size: 16px;
   }
   .experience{
@@ -335,6 +335,10 @@ form {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  .primary-link{
+    padding: 15px;
   }
 
   form {
