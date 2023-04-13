@@ -1,7 +1,7 @@
   window.addEventListener('load', function() {
     setTimeout(function() {
       document.getElementById('loading').style.display = 'none';
-    }, 2000); // 2 seconds
+    }, 3000); // 3 seconds
   });
 
 //   // select the element to animate
