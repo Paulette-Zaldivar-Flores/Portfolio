@@ -13,15 +13,39 @@ h5 {
   font-size: 20px;
 }
 
+.skills-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 30px;
+}
+
+.button{
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #333131a7;
+  border: 2px solid #eaf9ad;
+  box-shadow: 0 8px 32px 0 rgba(218, 233, 176, 0.37);
+  color: #eaf9ad;
+  font-weight: bold;
+}
+
+.button:hover{
+  background-color:#eaf9ad ;
+  color: #000000;
+
+}
+
+.pill-list .pill {
+  display: none;
+}
+
 .pill-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-
-    justify-content: center;
-    align-items: center;
-
-
+  justify-content: center;
+  align-items: center;
   gap: 0.5rem;
   padding: 20px;
   margin: 0;
@@ -39,7 +63,7 @@ h5 {
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  box-shadow: 0 8px 32px 0 rgba(218, 233, 176, 0.37);
 }
 
 

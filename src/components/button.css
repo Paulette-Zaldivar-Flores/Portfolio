@@ -1,13 +1,13 @@
 .primary-link {
+  font-size: 20px;
   display: inline-block;
   text-align: center;
   background: #1f1f1f;
   border-radius: 10px;
   border: 1px solid var(--ascent-color);
-  padding: 15px 10px;
+  padding: 30px;
   text-decoration: none;
   color: var(--ascent-color);
-  font-weight: bold;
   font-family: "Lato", sans-serif;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
