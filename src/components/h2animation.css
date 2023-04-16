@@ -2,8 +2,8 @@
   font-size: 100px;
   text-align: left;
   font-weight: 800;
-  color: var(--ascent-color);
-  text-shadow: 2px 2px 2px rgb(132, 130, 130);
+  color: rgb(136, 133, 133);
+
   padding-top: 80px;
   padding-bottom:100px;
   line-height:1.5;
@@ -11,11 +11,15 @@
 
 #h2-greeting {
   font-size: 30px;
-  text-shadow: 2px 2px 2px rgb(132, 130, 130);
+
 }
 
 .white {
   color: var(--primary-color);
+}
+
+.blue{
+  color:var(--ascent-color);
 }
 /* H2 Animation */
 

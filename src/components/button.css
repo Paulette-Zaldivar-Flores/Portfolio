@@ -24,7 +24,7 @@
   padding: 0.9rem 1.8rem;
   font-size: 16px;
   font-weight: 700;
-  color: grey;
+  color: #808080;
   border: 3px solid var(--ascent-color);
   cursor: pointer;
   position: relative;
