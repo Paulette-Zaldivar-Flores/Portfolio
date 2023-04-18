@@ -103,6 +103,8 @@ function showSkills(category) {
       skillList.querySelector(".devicon-webpack-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-heroku-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-figma-plain").parentNode.style.display = "block";
+      skillList.querySelector(".rest-api-icon").parentNode.style.display = "block";
+      skillList.querySelector(".netlify-api-icon").parentNode.style.display = "block";
       break;
     default:
       break;

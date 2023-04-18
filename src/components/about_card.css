@@ -88,6 +88,16 @@ h5 {
   box-shadow: 0 8px 32px 0 rgba(218, 233, 176, 0.37);
 }
 
+.rest-api-icon{
+  height: 50px;
+  width: 50px;
+}
+
+.netlify-api-icon{
+  height: 50px;
+  width: 50px;
+}
+
 
 
 @media (max-width: 600px){
@@ -108,5 +118,16 @@ h5 {
   .pill-icon{
     font-size: 35px;
   }
+
+  .rest-api-icon{
+    height: 35px;
+    width: 35px;
+  }
+
+  .netlify-api-icon{
+    height: 35px;
+    width: 35px;
+  }
+
 
 }
