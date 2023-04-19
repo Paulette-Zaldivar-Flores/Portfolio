@@ -1,11 +1,11 @@
-  window.addEventListener('load', function() {
-    setTimeout(function() {
-      document.getElementById('loading').style.display = 'none';
-    }, 3000); // 3 seconds
-  });
+  // window.addEventListener('load', function() {
+  //   setTimeout(function() {
+  //     document.getElementById('loading').style.display = 'none';
+  //   }, 3000); // 3 seconds
+  // });
 
 //   // select the element to animate
-// const element = document.querySelector('.animate__animated.animate__slideInLeft');
+// const element = document.querySelector('.animate__animated.animate__slideInLeft');s
 
 // // add a scroll event listener to the window object
 // window.addEventListener('scroll', () => {
@@ -23,9 +23,6 @@
 //     element.classList.add('animate__animated', 'animate__slideInLeft');
 //   }
 // });
-
-
-
 
   const numStars = 30;
   const stars = [];
@@ -89,6 +86,7 @@ function showSkills(category) {
       skillList.querySelector(".devicon-javascript-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-rails-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-react-original").parentNode.style.display = "block";
+      skillList.querySelector(".devicon-webpack-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-bootstrap-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-html5-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-css3-plain").parentNode.style.display = "block";
@@ -100,7 +98,6 @@ function showSkills(category) {
       skillList.querySelector(".devicon-mysql-plain").parentNode.style.display = "block";
       break;
     case "other-tools":
-      skillList.querySelector(".devicon-webpack-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-heroku-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-figma-plain").parentNode.style.display = "block";
       skillList.querySelector(".rest-api-icon").parentNode.style.display = "block";

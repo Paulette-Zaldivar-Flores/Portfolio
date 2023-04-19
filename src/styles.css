@@ -206,7 +206,6 @@ form {
     padding-right: 0px;
   }
   .card-img-top {
-    width: 100%;
     object-fit: cover;
   }
 
@@ -219,7 +218,6 @@ form {
 
 @media (max-width: 500px) {
   .card-img-top {
-    width: 100%;
     object-fit: cover;
   }
 
