@@ -51,32 +51,44 @@ crossorigin="anonymous"></script>
       <div class="collapse navbar-collapse" id="navbarNav">
     <ul class = "navbar-nav nav-fill">
         <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading1"> Home</a>
+            <a class="nav-link" href="#scrollspyHeading1" id = "home"> Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading2">About Me</a>
+            <a class="nav-link" href="#scrollspyHeading2" id = "about">About Me</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading4">Projects</a>
+            <a class="nav-link" href="#scrollspyHeading4" id = "my-projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading5">Contact</a>
+          <a class="nav-link" href="#scrollspyHeading5" id = "contact-me">Contact</a>
       </li>
+      <li class="nav-item pt-3">
+        <label tabindex="0" class="switch">
+          <input type="checkbox" id="language-switch-input">
+          <div class="slider"></div>
+          <div class="icon en">🇺🇸</div>
+          <div class="icon sp">🇲🇽</div>
+        </label>
+      <li>
     </ul>
     </div>
     </div>
 </nav>
+
+<!-- HTML -->
+
+
+
         <section id="scrollspyHeading1">
           <div class="container1">
-            <h2 class="welcome"> <div id ="h2-greeting"> Hello my name is</div> <span class="blue">Paulette Zaldivar Flores </span> <br> I design and  build <br>web applications</h2>
+            <h2 class="welcome"> <div id ="h2-greeting"> Hello my name is</div> <span class="blue" id = "blue">Paulette Zaldivar Flores </span> <br><span id = "build">I design and  build</span><br><span id = "web"> web applications</span></h2>
           </div>
         </section>
-
         <section id="scrollspyHeading2">
           <h1 id = "about-me">- About Me -</h1>
             <div class = "col-md-6 offset-md-3">
             <img class="img-fluid" src="images/paulette.png" alt="card-image" id ="paulette-image">
-              <p>
+              <p id = "my-story">
                 Hi, I'm Paulette, a Senior Educator and Frontend Developer with a strong interest in creating user-friendly applications. With over a decade of teaching experience, I have developed a diverse set of skills including effective communication, problem-solving, and teamwork. One of my strengths is my ability to communicate in a way that makes people feel comfortable, which allows me to help individuals understand complex concepts easily. As a multilingual individual who has worked in international environments, I bring a global perspective to my work. I am passionate about delivering clean and effective frontend solutions that enhance users' experiences with technology. I am excited to bring my expertise in education and my passion for frontend development to an inclusive team that fosters professional growth, empathy, and creativity. If you are interested in discussing any opportunities, please feel free to contact me.
               </p>
             <div class = "social">
@@ -136,14 +148,14 @@ crossorigin="anonymous"></script>
                 <div class="col col-xl-12">
                   <a href="#modal3">
                     <div class="card project-card">
-                    <video src="images/healthpocket.mp4" class="card-img-top project-video" id = "healthpocket" playsinline muted autoplay loop = false></video>
+                    <video src="images/healthpocket.mp4" class="card-img-top project-video" id = "healthpocket" playsinline muted autoplay loop = false loading = "lazy"></video>
                     </a>
                     <div class="popup" id="modal3">
                       <a class="popup__overlay" href="#"></a>
                       <div class="popup__wrapper">
                         <a class= "popup-close" href="#234"><i class="fa-regular fa-rectangle-xmark"></i></a>
                           <h5 class = "modal-title">Health Pocket</h5>
-                        <p>A mobile application that allows you upload, translate and share medical documents.
+                        <p id = "health-pocket">A mobile application that allows you upload, translate and share medical documents.
                         </p>
                         <div class="modal-footer">
                           <a href="https://github.com/SarahVh92/health-pocket" target="blank"><i class="fa-brands fa-github"> </a></i>
@@ -156,14 +168,14 @@ crossorigin="anonymous"></script>
               <div class="col col-xl-12">
                 <a href="#modal1">
                   <div class="card project-card">
-                    <video src="images/berry_fiore.mp4" class="card-img-top project-video" playsinline muted autoplay loop="false"></video>
+                    <video src="images/berry_fiore.mp4" class="card-img-top project-video" playsinline muted autoplay loop="false" loading = "lazy"></video>
                   </a>
                   <div class="popup" id="modal1">
                     <a class="popup__overlay" href="#"></a>
                     <div class="popup__wrapper">
                       <a class= "popup-close" href="#234"><i class="fa-regular fa-rectangle-xmark"></i></a>
                         <h5 class = "modal-title">Berry Fiore</h5>
-                      <p>Berry Fiore is a landing page for a Mexican sweets company in San Diego, CA
+                      <p id = "berry-fiore">Berry Fiore is a landing page for a Mexican sweets company in San Diego, CA
                       </p>
                     <div class="modal-footer">
                       <a href="https://github.com/Paulette-Zaldivar-Flores/Berry-Fiore" target="blank"><i class="fa-brands fa-github"></a></i>
@@ -177,13 +189,13 @@ crossorigin="anonymous"></script>
             <div class="col col-xl-12">
               <a href="#modal2">
                 <div class="card project-card">
-                <video src="images/EZ_cocktails.mp4" class="card-img-top project-video" playsinline muted autoplay loop="false"></video></a>
+                <video src="images/EZ_cocktails.mp4" class="card-img-top project-video" playsinline muted autoplay loop="false" loading = "lazy"></video></a>
                 <div class="popup" id="modal2">
                   <a class="popup__overlay" href="#"></a>
                   <div class="popup__wrapper">
                     <a class= "popup-close" href="#234"><i class="fa-regular fa-rectangle-xmark"></i></a>
                       <h5 class = "modal-title">EZ Cocktails</h5>
-                    <p>Ez Cocktails is a website where you can search your favorite cocktail recipes and retrieve cocktail data supplied by https://www.thecocktaildb.com/api.php
+                    <p id = "cocktails">Ez Cocktails is a website where you can search your favorite cocktail recipes and retrieve cocktail data supplied by https://www.thecocktaildb.com/api.php
                     </p>
                     <div class="modal-footer">
                       <a href="https://github.com/Paulette-Zaldivar-Flores/Ez-Cocktail" target="blank"><i class="fa-brands fa-github"> </a></i>
@@ -197,14 +209,14 @@ crossorigin="anonymous"></script>
             <div class="col col-xl-12">
               <a href="#modal4">
                 <div class="card project-card">
-                <video src="images/promptory.mp4" class="card-img-top project-video" playsinline muted autoplay loop="false"></video>
+                <video src="images/promptory.mp4" class="card-img-top project-video" playsinline muted autoplay loop="false" loading = "lazy"></video>
                 </a>
                 <div class="popup" id="modal4">
                   <a class="popup__overlay" href="#"></a>
                   <div class="popup__wrapper">
                     <a class= "popup-close" href="#234"><i class="fa-regular fa-rectangle-xmark"></i></a>
                       <h5 class = "modal-title">Promptory</h5>
-                    <p>Promptory is dictionary app that shows the definition, images, audio pronunciation and parts of speech of a word using the Pexels and Dictionary API.
+                    <p id = "promptory">Promptory is dictionary app that shows the definition, images, audio pronunciation and parts of speech of a word using the Pexels and Dictionary API.
                     </p>
                     <div class="modal-footer">
                       <a href="https://github.com/Paulette-Zaldivar-Flores/Promptory" target="blank"><i class="fa-brands fa-github"> </a></i>
@@ -258,7 +270,7 @@ crossorigin="anonymous"></script>
                       required
                     ></textarea>
                     <div class = "text-center">
-                      <button type="submit" class="primary-link" title="Contact Me">
+                      <button type="submit" class="primary-link" title="Contact Me" id = "button">
                         Contact Me
                       </button>
                       </div>
@@ -285,5 +297,6 @@ crossorigin="anonymous"></script>
         </div>
     </footer>
     <script src="src/script.js"></script>
+    <script src="src/translation.js"></script>
     </body>
   </html>
