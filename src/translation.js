@@ -18,6 +18,7 @@ function updateLanguage(language) {
   const berry = document.getElementById("berry-fiore");
   const cocktails = document.getElementById("cocktails");
   const promptory = document.getElementById("promptory");
+  const babyloop = document.getElementById("baby-loop");
 
   if (language === "spanish") {
     home.textContent = "Inicio";
@@ -36,6 +37,7 @@ function updateLanguage(language) {
     berry.textContent= "Berry Fiore es una página de aterrizaje para una empresa de dulces mexicanos en San Diego, CA";
     cocktails.textContent = "Ez Cocktails es un sitio web donde puedes buscar tus recetas de cócteles favoritas y obtener datos de cócteles suministrados por https://www.thecocktaildb.com/api.php.";
     promptory.textContent = "Promptory es una aplicación de diccionario que muestra la definición, imágenes, pronunciación de audio y partes de la oración de una palabra utilizando las API de Pexels y Dictionary."
+    babyloop.textContent = "Una aplicación de comercio electrónico web que te permite alquilar y rentar productos para bebés al cargar tus ofertas.";
     contact.textContent = "- Contácteme -";
     paragraph2.textContent = "Mi pasión por el desarrollo frontend ha florecido junto con mis habilidades de codificación. Me fascinan las posibilidades ilimitadas de crear páginas web que conecten al mundo digitalmente. ¿Quizás mi próximo proyecto podría ser contigo? ";
     button.textContent = "Contácteme";
@@ -56,6 +58,7 @@ function updateLanguage(language) {
     berry.textContent= "Berry Fiore is a landing page for a Mexican sweets company in San Diego, CA"
     cocktails.textContent = "Ez Cocktails is a website where you can search your favorite cocktail recipes and retrieve cocktail data supplied by https://www.thecocktaildb.com/api.php"
     promptory.textContent = "Promptory is dictionary app that shows the definition, images, audio pronunciation and parts of speech of a word using the Pexels and Dictionary API."
+    babyloop.textContent = "An ecommerce app web that allows you to rent and rent out baby products by uploading your offers."
     contact.textContent = "-Contact Me";
     paragraph2.textContent ="My passion for frontend development has flourished alongside my coding skills. I am fascinated by the limitless possibilities of creating web pages that connect the world digitally. Perhaps my next project could be with you?";
     button.textContent = "Contact Me";
