@@ -18,6 +18,9 @@
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   background-color: #000000d9;
+  box-shadow: 0 8px 32px 0 rgba(21, 165, 231, 0.37);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .card:hover .text {
@@ -151,6 +154,8 @@ input[type=checkbox] {
   .title {
     font-size: 25px;
   }
+
+
 
 
 }
