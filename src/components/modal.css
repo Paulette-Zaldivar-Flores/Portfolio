@@ -1,14 +1,33 @@
 .card {
-  text-align: center;
+  text-align: left;
   background-color: #000000;
   border: 3px solid #00ffff;
   margin: 10px;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
-.project-video:hover{
-  filter: brightness(60%);
+
+
+
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: #000000d9;
 }
+
+.card:hover .text {
+  opacity: 1;
+}
+
+
+/* .project-video:hover{
+  filter: brightness(60%);
+} */
 
 
 
@@ -16,6 +35,7 @@
   color:var(--ascent-color);
   font-weight: bolder;
   font-size: 25px;
+  text-align: center;
 }
 
 .modal-dialog{
@@ -42,7 +62,7 @@
 
 .popup__close{
   color: #00ffff;
-  font-size: 25px;
+
 }
 
 .popup__close:hover{
@@ -50,9 +70,9 @@
 }
 
 .fa-rectangle-xmark{
-  padding-left: 350px;
+
   color: #00ffff;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .fa-rectangle-xmark:hover{
@@ -103,6 +123,7 @@ input[type=checkbox] {
   height: 100%;
   width: 100%;
   background: #000000b3;
+
 }
 .popup__wrapper {
   position: fixed;
@@ -115,6 +136,7 @@ input[type=checkbox] {
   border-radius: 8px;
   padding: 58px 32px 32px 32px;
   background: rgb(40, 40, 40);
+  border: 2px solid aqua;
 }
 .popup__close {
   position: absolute;
