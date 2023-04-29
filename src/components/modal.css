@@ -146,9 +146,11 @@ input[type=checkbox] {
 }
 /*end */
 
-@media (max-width: 900px){
-  .fa-rectangle-xmark{
-    padding-left: 150px;
+@media (max-width: 700px){
+
+  .title {
+    font-size: 25px;
   }
+
 
 }
