@@ -99,8 +99,35 @@ h5 {
 }
 
 
+.pill {
+  position: relative;
+}
 
+.pill:hover:before {
+  opacity: 1;
+}
 
+.pill:before {
+  content: attr(data-label);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.tech {
+  font-size: 40px;
+}
 
 
 
@@ -134,9 +161,14 @@ h5 {
     width: 35px;
   }
 
-  .pill:hover::before {
-    font-size: 10px;
-    padding: 2.5px 5px;
+  .pill:before {
+    font-size: 8px;
+    border-radius: 5px;
+
+  }
+
+  .tech {
+    font-size: 25px;
   }
 
 
