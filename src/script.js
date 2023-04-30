@@ -42,7 +42,7 @@
     );
   });
 
-  // Tools Buttons
+ // Tools Buttons
 
   // Get buttons and pill list
 // Get buttons and pill list
