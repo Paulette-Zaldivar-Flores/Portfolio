@@ -6,10 +6,6 @@
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
-
-
-
-
 .text {
   position: absolute;
   top: 50%;
@@ -26,12 +22,6 @@
 .card:hover .text {
   opacity: 1;
 }
-
-
-/* .project-video:hover{
-  filter: brightness(60%);
-} */
-
 
 
 .modal-title{
@@ -155,8 +145,5 @@ input[type=checkbox] {
   .title {
     font-size: 25px;
   }
-
-
-
 
 }
