@@ -13,7 +13,7 @@
 
 
 ## General Information
-<ul><li>The goal of this project is to give insight of my skills as a frontend developer</li></ul>
+<ul><li>The goal of this project is to give insight of my skills and journey as a frontend developer</li></ul>
 
 
 ## Technologies Used
