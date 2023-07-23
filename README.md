@@ -52,13 +52,13 @@ List the ready features here:
 
 ## Room for Improvement
 <ul>
-  <li>Adjust menu bar items</ul>
-<li>Improve the layout</li></ul>
+<li>Improve the project cards</li></ul>
 
 
 To do:
 <ul>
-  <li>Adding more projects</li><ul>
+  <li>Adding more projects</li>
+  <li>Buy Domain</li><ul>
 
 
 ## Contact
