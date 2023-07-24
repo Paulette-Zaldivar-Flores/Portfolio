@@ -416,6 +416,11 @@ form {
   text-align: center;
 }
 
+.btn{
+  padding: 10px;
+}
 
-
+.fa-eye{
+  font-size: 20px;
+}
 }
