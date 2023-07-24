@@ -3,7 +3,7 @@ footer {
   width: 100%;
   height: 80px;
   color: black;
-  background: #00ffff;
+  background: 	#B19CD9;
   font-weight: bold;
   padding-top: 15px;
   padding-bottom: 0px;
@@ -14,7 +14,7 @@ footer {
 
 #link a {
   text-decoration: none;
-  color: var(--link-color);
+  color: black ;
   padding-bottom: 30px;
 }
 #link a:hover {

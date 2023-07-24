@@ -1,3 +1,7 @@
+.logo {
+  width: 60px !important;
+}
+
 .navbar-nav {
   display: flex;
   justify-content: center;
@@ -31,7 +35,7 @@ nav .navbar-nav li a:hover {
 }
 
 .navbar .nav-item > .nav-link.active {
-  color: #00ffff !important;
+  color: 	#B19CD9 !important;
 }
 
 .nav-button {

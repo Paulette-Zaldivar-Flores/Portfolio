@@ -50,11 +50,11 @@
 
 .switch:hover .slider, .switch:focus .slider {
   border: 1px solid #4d4d4d;
-  box-shadow: 0 0 2px 3px #07f9e5;
+  box-shadow: 0 0 2px 3px #B19CD9;
 }
 
 .switch:active .slider {
-  box-shadow: 0 0 5px 5px #07f9ed;
+  box-shadow: 0 0 5px 5px #B19CD9;
 }
 
 .switch input:checked+.slider {

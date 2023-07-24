@@ -2,16 +2,16 @@
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  border: 2px solid #00ffff;
+  border: 2px solid 	#B19CD9;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
 }
 
-h5 {
-  font-size: 20px;
-}
+/* h5 {
+  font-style: bold;
+} */
 
 .skills-buttons {
   display: flex;

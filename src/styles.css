@@ -14,20 +14,16 @@
 @import url("components/modal.css");
 @import url("components/loading.css");
 @import url("components/toggle-button.css");
+@import url("components/project_cards.css");
+@import url("components/on_scroll_animation.css");
 
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
+
 
 :root {
   --primary-color: #ffffff;
   --secondary-color: #cdc7d9;
-  --ascent-color: #00ffff;
+  --ascent-color: 	#B19CD9;
   --link-color: #000000;
   --background-color: radial-gradient(
     circle at 24.1% 68.8%,
@@ -41,16 +37,14 @@
 
 a{
   text-decoration: none;
-  color:#00ffff
+  color:#B19CD9
 }
 
 a:hover{
-  color: #abb9b9;
+  color: #937cbc;
 }
 
-.logo {
-  max-width: 40px;
-}
+
 .container1{
   padding-top: 100px;
   padding-left:80px;
@@ -189,7 +183,7 @@ form {
     rgb(50, 50, 50) 0%,
     rgb(0, 0, 0) 99.4%
   );
-  border: 1px solid #00ffff;
+  border: 1px solid var(--ascent-color);
 }
 
 

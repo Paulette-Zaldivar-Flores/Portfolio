@@ -15,23 +15,13 @@
   font-family: inherit;
 }
 
-.primary-link::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--ascent-color);
-  transform: translateX(-100%);
-  transition: all .3s;
-  z-index: -1;
+.primary-link:hover {
+  background-color:  var(--ascent-color);
+  color: black;
 
 }
 
-.primary-link:hover::before {
-  transform: translateX(0);
-}
+
 
 
 
@@ -46,7 +36,9 @@
 }
 
 .social-icons {
+  color: #B19CD9 !important;
   padding: 10px;
+  font-size: 50px !important;
   background: rgba( 255, 255, 255, 0.3 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 3px );

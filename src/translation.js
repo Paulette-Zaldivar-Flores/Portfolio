@@ -19,6 +19,7 @@ function updateLanguage(language) {
   const cocktails = document.getElementById("cocktails");
   const promptory = document.getElementById("promptory");
   const babyloop = document.getElementById("baby-loop");
+  const mamoru =  document.getElementById("mamoru");
 
   if (language === "spanish") {
     home.textContent = "Inicio";
@@ -38,6 +39,7 @@ function updateLanguage(language) {
     cocktails.textContent = "Ez Cocktails es un sitio web donde puedes buscar tus recetas favoritas de cócteles. Este es mi primer proyecto grupal desarrollado para el Voyage 40 en Chingu. En este proyecto, fui la desarrolladora frontend y diseñadora. Aprendí a usar Jira y Git durante el desarrollo de este proyecto.";
     promptory.textContent = "Promptory es una aplicación de diccionario que muestra la definición, imágenes, pronunciación de audio y partes de la oración de una palabra utilizando las API de Pexels y Dictionary. Este es mi proyecto final para SheCodes y demuestra todo lo que aprendí como desarrolladora frontend y diseñadora en ese momento."
     babyloop.textContent = "Baby Loop es una aplicación web de comercio electrónico que te permite alquilar y alquilar productos para bebés al cargar tus ofertas. Este proyecto fue desarrollado para Le Wagon Tokyo y es mi primer proyecto fullstack. Fui la desarrolladora frontend, diseñadora y gestora de proyecto.";
+    mamoru.textContent = "Mamoru es una aplicación de comercio electrónico que promueve la sostenibilidad al conectar a los usuarios con negocios sostenibles. Actualmente, trabajo como desarrollador frontend y diseñador para esta empresa en este proyecto y en otros proyectos también.";
     contact.textContent = "- Contácteme -";
     paragraph2.textContent = "Mi pasión por el desarrollo frontend ha florecido junto con mis habilidades de codificación. Me fascinan las posibilidades ilimitadas de crear páginas web que conecten al mundo digitalmente. ¿Quizás mi próximo proyecto podría ser contigo? ";
     button.textContent = "Contácteme";
@@ -59,6 +61,7 @@ function updateLanguage(language) {
     cocktails.textContent = "Ez Cocktails is an app where you can search for your favorite cocktail recipes. This is my first group project developed for Voyage 40 at Chingu. For this project I was the frontend developer and designer. I learned how to use Jira and Git during the development of this project."
     promptory.textContent = "Promptory is dictionary app that shows the definition, images, audio pronunciation and parts of speech of a word using the Pexels and Dictionary API. This is my final project for SheCodes it demonstrates all my learning as a frontend developer and designer at the time."
     babyloop.textContent = "Baby Loop is an ecommerce app that allows you to rent and rent out baby products by uploading your offers. This project was developed for Le Wagon Tokyo and is my first fullstack project. I was the frontend developer, designer and project manager for this project."
+    mamoru.textContent = "Mamoru is an ecommerce app that promotes sustainability by connecting users with sustainable businesses. I am currently working as a frontend developer and designer for this company, handling this project and other projects as well.";
     contact.textContent = "-Contact Me";
     paragraph2.textContent ="My passion for frontend development has flourished alongside my coding skills. I am fascinated by the limitless possibilities of creating web pages that connect the world digitally. Perhaps my next project could be with you?";
     button.textContent = "Contact Me";
