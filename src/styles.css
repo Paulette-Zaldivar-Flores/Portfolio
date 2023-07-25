@@ -175,15 +175,14 @@ form {
   width: 60%;
   margin: 0 auto;
 
+
 }
 
 .form-control {
-  background: radial-gradient(
-    circle at 24.1% 68.8%,
-    rgb(50, 50, 50) 0%,
-    rgb(0, 0, 0) 99.4%
-  );
-  border: 1px solid var(--ascent-color);
+
+
+  border: 3px solid var(--ascent-color);
+
 }
 
 
@@ -431,4 +430,6 @@ form {
 #footer__github{
   font-size: 20px
 }
+
+
 }
