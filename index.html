@@ -29,7 +29,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 <title>💜Paulette Frontend Developer</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#sections-wrapper" data-bs-offset="0" class="scrollspy" tabindex="0">
+
   <!-- <div id="loading">
     <div class="scanner"><span>Loading...</span></div>
   </div> -->
@@ -37,7 +38,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFST9DQ"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <nav class="navbar navbar-custom navbar-expand-lg navbar-dark fixed-top">
+  <nav id="navbar" class="navbar navbar-custom navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html" title= "logo"><img src= "images/logo.png" alt = "me" class = "logo"/></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,11 +72,23 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 </nav>
 
 <!-- HTML -->
-        <section id="scrollspyHeading1">
-          <div class="container1">
-            <h2 class="welcome"> <div id ="h2-greeting"> Hello my name is</div> <span class="blue" id = "blue">Paulette Zaldivar Flores </span> <br><span id = "build">I design and  build</span><br><span id = "web"> web applications</span></h2>
-          </div>
-        </section>
+<div id="sections-wrapper" data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0">
+<section id="scrollspyHeading1">
+  <!-- <div class="container1"> -->
+    <div class="banner-video-wrapper" >
+      <video playsinline autoplay muted loop>
+        <source src="images/banner.mp4" type="video/webm">
+      </video>
+      <h2 class="banner-description welcome">
+        <div id="h2-greeting">Hello my name is</div>
+        <span class="blue" id="blue">Paulette Zaldivar Flores</span><br>
+        <span id="build">I design and build</span><br>
+        <span id="web">web applications</span>
+      </h2>
+    </div>
+</section>
+
+
         <section id="scrollspyHeading2">
           <h1 id = "about-me">- About Me -</h1>
             <div class = "col-md-6 offset-md-3">
@@ -314,6 +327,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 <div class="col-sm-1"></div>
               </div>
         </section>
+      </div>
         <div>
           <p id ="rights">© 2023 Paulette Zaldivar Flores. All Rights Reserved.</p>
         </div>

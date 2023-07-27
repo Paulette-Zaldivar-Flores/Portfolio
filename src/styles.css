@@ -107,17 +107,43 @@ p {
   color: var(--background-color);
 }
 
-.star {
+/* .star {
   position: fixed;
   background-color: transparent;
   border-radius: 50%;
   box-shadow: 0 0 3px white, 0 0 6px white, 0 0 9px white, 0 0 12px white;
   animation: twinkle 2s linear infinite;
-}
+} */
 
 .container {
   color: var(--primary-color);
 }
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  z-index: -1
+}
+
+
+
+.banner-description {
+  position: absolute;
+  padding: 200px;
+
+}
+
+
+.banner-video-wrapper {
+  height: 100vh;
+  display: flex;
+}
+
+
+
 
 #work,
 #projects,
@@ -357,6 +383,18 @@ form {
 .welcome {
   font-size: 50px;
   text-align: left;
+}
+
+
+.banner-description {
+  position: absolute;
+margin-top: 150px;
+padding: 0;
+  }
+
+  .banner-video-wrapper {
+    height: 60vh;
+
 }
 
 #paulette-image {
