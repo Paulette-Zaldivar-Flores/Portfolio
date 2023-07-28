@@ -387,7 +387,7 @@ form {
 
 
 .banner-description {
-  position: absolute;
+position: absolute;
 margin-top: 150px;
 padding: 0;
   }
@@ -398,8 +398,6 @@ width: 100vw;
 object-fit: cover;
 
 }
-
-
 
 
 
