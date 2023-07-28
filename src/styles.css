@@ -395,10 +395,8 @@ padding: 0;
 .banner-video-wrapper {
 height: 60vh;
 width: 100vw;
-position: absolute;
 object-fit: cover;
-top: 0;
-z-index: -1
+
 }
 
 
