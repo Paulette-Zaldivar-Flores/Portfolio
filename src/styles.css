@@ -107,14 +107,6 @@ p {
   color: var(--background-color);
 }
 
-/* .star {
-  position: fixed;
-  background-color: transparent;
-  border-radius: 50%;
-  box-shadow: 0 0 3px white, 0 0 6px white, 0 0 9px white, 0 0 12px white;
-  animation: twinkle 2s linear infinite;
-} */
-
 .container {
   color: var(--primary-color);
 }
@@ -128,21 +120,17 @@ p {
   z-index: -1
 }
 
-
-
 .banner-description {
   position: absolute;
   padding: 200px;
 
 }
 
-
 .banner-video-wrapper {
   height: 100vh;
+  width: 100vw;
   display: flex;
 }
-
-
 
 
 #work,
@@ -205,10 +193,7 @@ form {
 }
 
 .form-control {
-
-
   border: 3px solid var(--ascent-color);
-
 }
 
 
@@ -217,35 +202,7 @@ form {
 }
 
 
-
 /* Responsiveness */
-
-@media (max-width: 330px) {
-  .container .card .imgContainer {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .card-img-top {
-    object-fit: cover;
-  }
-
-  .card{
-    width: 21rem;
-  }
-
-
-}
-
-@media (max-width: 500px) {
-  .card-img-top {
-    object-fit: cover;
-  }
-
-
-  .card {
-    width: 21rem;
-  }
-}
 
 
 @media (max-width: 700px) {
@@ -373,9 +330,7 @@ form {
     font-size: 15px;
   }
 
-  .card{
-    width: 21rem;
-  }
+
 
 }
 
@@ -401,20 +356,7 @@ object-fit: cover;
 
 .banner {
   position: relative;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 #paulette-image {
   height: 200px;
@@ -438,17 +380,6 @@ object-fit: cover;
 
 #paragraph-style-3{
   margin-top: 0;
-}
-
-.card {
-  width: 18rem;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
-.container1{
-  padding-top: 80px;
-  padding-left:0;
 }
 
 
@@ -486,6 +417,11 @@ object-fit: cover;
 
 #footer__github{
   font-size: 20px
+}
+
+.card__image {
+  height: 200px;
+  object-fit: fill;
 }
 
 
