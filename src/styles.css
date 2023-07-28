@@ -389,6 +389,7 @@ form {
 .banner-description {
 top: 150px;
 padding: 0;
+position: static;
 overflow: hidden;
   }
 
