@@ -178,12 +178,7 @@ p {
   margin-right: 200px;
 }
 
-#rights {
-  margin-top: 80px;
-  text-align: center;
-  color: var(--primary-color);
-  font-size: 12px;
-}
+
 
 form {
   width: 60%;
@@ -325,10 +320,7 @@ form {
     font-size: 16px;
   }
 
-  footer {
-    padding-top: 25px;
-    font-size: 15px;
-  }
+
 
 
 
@@ -424,5 +416,13 @@ object-fit: cover;
   object-fit: fill;
 }
 
+#rights{
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 50px;
+  font-size: 16px;
+}
 
 }
