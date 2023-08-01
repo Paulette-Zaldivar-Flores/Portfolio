@@ -1,11 +1,11 @@
  /* The animate.css library styles */
 .animate__animated {
-  animation-duration: 3s;
+  animation-duration: 1.5s;
 }
-.animate__lightSpeedInLeft {
-  animation-name: lightSpeedInLeft;
+.animate__fadeInUp {
+  animation-name: fadeInUp;
 }
-@keyframes lightSpeedInLeft {
+@keyframes animate__fadeInUp {
   from {
     transform: translate3d(-100%, 0, 0) skewX(30deg);
     opacity: 0;
