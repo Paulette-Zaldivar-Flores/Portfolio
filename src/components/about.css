@@ -2,16 +2,25 @@
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  border: 2px solid 	#B19CD9;
+  border: 2px solid #B19CD9;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
 }
 
-/* h5 {
-  font-style: bold;
-} */
+.card {
+  background-color: #575859;
+  color:#dfeaf2;
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+.card-icons{
+  color: #B19CD9 !important;
+}
 
 .skills-buttons {
   display: flex;
@@ -116,7 +125,7 @@
   height: 100%;
   background-color: black;
   opacity: 0;
-  color: white;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,9 +135,6 @@
   transition-duration: 1s;
 }
 
-.tech {
-  font-size: 40px;
-}
 
 
 

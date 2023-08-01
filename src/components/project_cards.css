@@ -38,12 +38,12 @@
 }
 
 .btn{
-  background-color: var(--ascent-color);
+  background: linear-gradient(110.6deg, rgb(184, 142, 252) 2.2%, rgb(104, 119, 244) 100.2%);
   color: rgb(27, 27, 27);
 }
 
 .btn:hover{
-  background-color:#8e74bd ;
+  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
   color: rgb(27, 27, 27);
 }
 
