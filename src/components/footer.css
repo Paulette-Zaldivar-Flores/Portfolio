@@ -16,11 +16,13 @@ footer {
 #footer-title{
   color: #000000;
   margin-bottom: 0;
+  text-align: center;
 }
 
 #footer-description{
   padding: 0;
   font-size: 25px;
+  text-align: center;
 }
 
 

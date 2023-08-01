@@ -17,7 +17,7 @@
   background:#020202;
 }
 .navbar ul li {
-  font-family: "Italiana", serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 a.nav-link {
@@ -47,7 +47,7 @@ nav .navbar-nav li a:hover {
   font-weight: bold;
   margin-top: 5px;
   font-weight: 800;
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 .nav-button:hover {

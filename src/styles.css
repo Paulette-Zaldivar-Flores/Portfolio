@@ -1,6 +1,8 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
@@ -62,7 +64,7 @@ body{
 h1,
 h2,
 h3 {
-  font-family: "Italiana", serif;
+  font-family: 'Roboto Slab', serif;
   text-align: center;
 }
 
@@ -114,7 +116,7 @@ p {
   margin-bottom: 10px;
   margin-top: 30px;
   text-align: center;
-  text-shadow: 2px 2px 2px rgb(132, 130, 130);
+  /* text-shadow: 2px 2px 2px rgb(132, 130, 130); */
 }
 
 
