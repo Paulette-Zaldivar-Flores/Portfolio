@@ -1,7 +1,7 @@
 footer {
   margin-bottom: 0px;
   width: 100%;
-  height: 150px;
+  height: 250px;
   color: black;
   background: 	#B19CD9;
   font-weight: bold;
@@ -13,17 +13,28 @@ footer {
   margin-top: 50px;
 }
 
-#link a {
-  text-decoration: none;
-  color: black ;
-  padding-bottom: 30px;
+#footer-title{
+  color: #000000;
+  margin-bottom: 0;
 }
-#link a:hover {
-  color: #808080;
+
+#footer-description{
+  padding: 0;
+  font-size: 25px;
 }
+
 
 #rights {
   text-align: center;
   color: black;
-  font-size: 16px;
+  font-size: 12px;
+}
+
+#footer__linkedin, #footer__github {
+  color:#000000;
+  font-size: 40px;
+}
+
+#footer__linkedin:hover, #footer__github:hover {
+  color:#313030;
 }

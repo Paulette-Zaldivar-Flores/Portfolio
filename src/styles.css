@@ -294,30 +294,27 @@ form {
     font-size: 16px;
   }
 
-
-
-
-
 }
 
 @media (max-width: 900px){
+#h2-greeting{
+  font-size: 20px;
+}
 .welcome {
   font-size: 50px;
   text-align: center;
 }
 
-
 .banner-description {
 top: 150px;
 padding: 0;
 overflow: hidden;
-  }
+}
 
 .banner-video-wrapper {
 height: 500px;
 width: 100vw;
 object-fit: cover;
-
 }
 
 .banner {
@@ -377,13 +374,6 @@ object-fit: cover;
   font-size: 20px;
 }
 
-#footer__linkedin{
-  font-size: 20px;
-}
-
-#footer__github{
-  font-size: 20px
-}
 
 .card__image {
   height: 200px;
@@ -391,12 +381,25 @@ object-fit: cover;
 }
 
 #rights{
-  font-size: 12px;
+  font-size: 11px;
 }
 
 footer {
   padding-top: 50px;
   font-size: 16px;
+}
+
+#footer-title{
+  font-size: 35px;
+}
+
+#footer-description{
+  font-size: 18px;
+}
+
+#footer__linkedin, #footer__github {
+  color:#000000;
+  font-size: 35px;
 }
 
 }

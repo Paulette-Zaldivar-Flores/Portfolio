@@ -10,8 +10,9 @@
 }
 
 .card {
-  background-color: #575859;
+  background-color: #444648;
   color:#dfeaf2;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
 .card-title{
@@ -19,7 +20,8 @@
 }
 
 .card-icons{
-  color: #B19CD9 !important;
+  font-size: 72px;
+  color: #CB6CE6 !important;
 }
 
 .skills-buttons {
@@ -94,7 +96,7 @@
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
-  box-shadow: 0 8px 32px 0 rgba(218, 233, 176, 0.37);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
 .rest-api-icon{
@@ -132,7 +134,7 @@
   font-size: 16px;
   font-weight: bold;
   border-radius: 10px;
-  transition-duration: 1s;
+  transition-duration: .5s;
 }
 
 
