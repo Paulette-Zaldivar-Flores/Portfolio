@@ -7,7 +7,7 @@
 
 /* CSS Components */
 @import url("components/navbar.css");
-@import url("components/h2animation.css");
+@import url("components/banner.css");
 @import url("components/button.css");
 @import url("components/about_card.css");
 @import url("components/footer.css");
@@ -32,23 +32,7 @@
   );
 }
 
-
 /* Global CSS */
-
-a{
-  text-decoration: none;
-  color:#B19CD9
-}
-
-a:hover{
-  color: #937cbc;
-}
-
-
-.container1{
-  padding-top: 100px;
-  padding-left:80px;
-}
 
 html {
   overscroll-behavior-y: none;
@@ -98,6 +82,15 @@ h3 {
   font-size: 30px;
 }
 
+a{
+  text-decoration: none;
+  color:#B19CD9
+}
+
+a:hover{
+  color: #937cbc;
+}
+
 
 p {
   line-height: 1.7;
@@ -111,26 +104,6 @@ p {
   color: var(--primary-color);
 }
 
-.banner {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  object-fit: cover;
-  top: 0;
-  z-index: -1
-}
-
-.banner-description {
-  position: absolute;
-  padding: 200px;
-
-}
-
-.banner-video-wrapper {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-}
 
 
 #work,
