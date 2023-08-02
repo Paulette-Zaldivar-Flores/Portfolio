@@ -303,7 +303,7 @@ form {
   font-size: 20px;
 }
 .welcome {
-  font-size: 50px;
+  font-size: 45px !important;
   text-align: center;
 }
 
