@@ -1,21 +1,16 @@
-// Tools Buttons
-// Get buttons and pill list
 const frontendBtn = document.getElementById("frontend-btn");
 const backendBtn = document.getElementById("backend-btn");
 const otherToolsBtn = document.getElementById("other-tools-btn");
 const skillList = document.getElementById("skill-list");
 
-// Add click event listeners to buttons
+
 frontendBtn.addEventListener("click", () => showSkills("frontend"));
 backendBtn.addEventListener("click", () => showSkills("backend"));
 otherToolsBtn.addEventListener("click", () => showSkills("other-tools"));
 
 function showSkills(category) {
-  // Hide all pills
   const pills = skillList.querySelectorAll(".pill");
   pills.forEach(pill => pill.style.display = "none");
-
-  // Show pills for selected category
   switch (category) {
     case "frontend":
       skillList.querySelector(".devicon-javascript-plain").parentNode.style.display = "block";
@@ -25,7 +20,6 @@ function showSkills(category) {
       skillList.querySelector(".devicon-bootstrap-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-html5-plain").parentNode.style.display = "block";
       skillList.querySelector(".devicon-css3-plain").parentNode.style.display = "block";
-
       break;
     case "backend":
       skillList.querySelector(".devicon-ruby-plain").parentNode.style.display = "block";

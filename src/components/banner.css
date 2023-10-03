@@ -16,7 +16,6 @@
   color:rgb(106, 30, 106);
 }
 
-
 h2 {
   max-width: 40ch;
   text-align: center;
@@ -41,7 +40,6 @@ h2 {
   height: 800px;
   display: flex;
 }
-
 
 .banner-video-wrapper video {
   width: 100%; /* Set the video width to 100% of its container */

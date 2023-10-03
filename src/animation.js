@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  // Function to apply animation class to project cards
   function animateProjectCards(entries, observer) {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -9,11 +8,7 @@ $(document).ready(function () {
       }
     });
   }
-
-  // Create an Intersection Observer instance
   const observer = new IntersectionObserver(animateProjectCards, { threshold: 0.1 });
-
-  // Select all project cards and observe them
   const projectCards = document.querySelectorAll(".project__card");
   projectCards.forEach((card) => {
     observer.observe(card);

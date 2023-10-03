@@ -109,7 +109,6 @@
   width: 50px;
 }
 
-
 .pill {
   position: relative;
 }
@@ -136,10 +135,6 @@
   border-radius: 10px;
   transition-duration: .5s;
 }
-
-
-
-
 
 @media (max-width: 600px){
   .pill-list {
@@ -179,7 +174,4 @@
   .tech {
     font-size: 25px;
   }
-
-
-
 }
