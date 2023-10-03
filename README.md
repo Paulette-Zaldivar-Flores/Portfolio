@@ -1,6 +1,6 @@
 # Portfolio
 > A portfolio of my journey as a frontend developer so far 👩🏽‍💻
-> Live demo [_here_](https://paulette-zaldivar-flores.netlify.app/).
+> Live demo [_here_](https://paulettethedev.com/).
 
 ## Table of Contents
 * [General Info](#general-information)
