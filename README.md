@@ -40,7 +40,13 @@ List the ready features here:
 
 ## Screenshots
 
-<img width="1280" alt="Portfolio" src="https://user-images.githubusercontent.com/96970580/210963234-60f08569-24a8-4d6c-8b1e-5a16c40a267e.png">
+
+
+https://github.com/Paulette-Zaldivar-Flores/Portfolio/assets/96970580/6fd7fc97-9ca2-4ff4-b820-05415a44dcc2
+
+
+
+
 
 
 
