@@ -1,5 +1,5 @@
 # Portfolio
-> A portfolio of my journey as a frontend developer so far 👩🏽‍💻
+> A portfolio of my journey as a software engineer so far 👩🏽‍💻
 > Live demo [_here_](https://paulettethedev.com/).
 
 ## Table of Contents
