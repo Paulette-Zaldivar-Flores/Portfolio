@@ -1,5 +1,5 @@
 # Portfolio
-> A portfolio of my journey as a frontend developer so far 👩🏽‍💻
+> A portfolio of my journey as a software engineer so far 👩🏽‍💻
 > Live demo [_here_](https://paulettethedev.com/).
 
 ## Table of Contents
@@ -13,7 +13,7 @@
 
 
 ## General Information
-<ul><li>The goal of this project is to give insight of my skills and journey as a frontend developer</li></ul>
+<ul><li>The goal of this project is to give insight of my skills and journey as a software engineer </li></ul>
 
 
 ## Technologies Used
